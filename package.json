@@ -8,8 +8,11 @@
     "sitemap": "node scripts/generate-sitemap.js",
     "prebuild": "npm run sitemap",
     "build": "vite build",
+    "postbuild": "node scripts/prerender.js",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prerender": "node scripts/prerender.js",
+    "deploy": "npm run build && firebase deploy --only hosting"
   },
   "dependencies": {
     "firebase": "^12.16.0",
