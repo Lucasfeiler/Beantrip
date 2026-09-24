@@ -120,20 +120,26 @@ function cityRoute(city, cityShops) {
 
   // The city pages carry no structured data at all today. An ItemList is what
   // lets a search engine or an assistant read the list as a list.
-  const itemList = {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    name: `Specialty coffee shops in ${city}`,
-    numberOfItems: count,
-    itemListElement: cityShops
-      .filter((s) => !s.placeholder)
-      .map((s, i) => ({
-        '@type': 'ListItem',
-        position: i + 1,
-        url: `${SITE_URL}/shop/${s.slug}`,
-        name: s.name,
-      })),
-  };
+  const listed = cityShops.filter((s) => !s.placeholder);
+
+  // A city whose entries are all placeholders has no shop pages to point at.
+  // Emitting an empty ItemList there would be thin structured data, so we skip it
+  // and let the page carry the breadcrumb only until real shops are added.
+  const itemList =
+    listed.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: `Specialty coffee shops in ${city}`,
+          numberOfItems: listed.length,
+          itemListElement: listed.map((s, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            url: `${SITE_URL}/shop/${s.slug}`,
+            name: s.name,
+          })),
+        }
+      : null;
 
   const breadcrumb = {
     '@context': 'https://schema.org',
@@ -146,8 +152,7 @@ function cityRoute(city, cityShops) {
 
   // Every shop in the city is linked from here, which is also how the 705 shop
   // pages become reachable in a single crawl hop.
-  const items = cityShops
-    .filter((s) => !s.placeholder)
+  const items = listed
     .map(
       (s) =>
         `<li><a href="/shop/${esc(s.slug)}">${esc(s.name)}</a>${s.neighborhood ? ` — ${esc(s.neighborhood)}` : ''}${s.address ? `, ${esc(s.address)}` : ''}</li>`
@@ -161,7 +166,7 @@ function cityRoute(city, cityShops) {
       ${items}
     </ul>`;
 
-  return { canonical, title, description, schemas: [itemList, breadcrumb], body };
+  return { canonical, title, description, schemas: itemList ? [itemList, breadcrumb] : [breadcrumb], body };
 }
 
 function homeRoute(cities, shops) {
