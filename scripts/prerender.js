@@ -39,8 +39,14 @@ const esc = (s) =>
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 
+// Everything written here is marked data-prerendered. That marker is only an
+// identification: it says the tag describes the URL that was fetched, not the page
+// React is showing now. Layout.jsx uses it twice -- to drop a prerendered tag once
+// the app has rendered its own copy, and to drop the whole set once the app
+// navigates somewhere else. Tags the app never renders, such as the social tags
+// and the lists, simply stay until one of those two things happens.
 const jsonLd = (obj) =>
-  `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
+  `<script type="application/ld+json" data-prerendered>${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
 
 function formatList(items) {
   if (items.length === 0) return '';
@@ -60,9 +66,40 @@ function topNeighborhoods(cityShops) {
     .map(([name]) => name);
 }
 
+
+/**
+ * Some shops have more than one branch under the same name in the same city
+ * (LAP COFFEE has three in Berlin). Those extra branches are slugged -2, -3,
+ * which is the only per-shop signal that says "there is already one of these".
+ * They get a locator in the title so no two pages share one. The first branch
+ * keeps the short title, so only the extras get longer.
+ *
+ * ShopDetail.jsx uses the same rule, so the title a crawler is served and the
+ * title React renders are the same string.
+ */
+function shopLocator(shop) {
+  if (shop.neighborhood && !shop.name.toLowerCase().includes(shop.neighborhood.toLowerCase())) {
+    return shop.neighborhood;
+  }
+  const street = (shop.address || '')
+    .split(',')[0]
+    .trim()
+    .replace(/^\d+[A-Za-z]?[\s-]+/, '')
+    .replace(/\s+\d+[A-Za-z]?$/, '');
+  return street || null;
+}
+
+export function shopTitle(shop) {
+  if (/-\d+$/.test(shop.slug)) {
+    const loc = shopLocator(shop);
+    if (loc) return `${shop.name} \u2014 ${loc} \u2014 Specialty Coffee Shop in ${shop.city} | Beantrip`;
+  }
+  return `${shop.name} \u2014 Specialty Coffee Shop in ${shop.city} | Beantrip`;
+}
+
 function shopRoute(shop) {
   const canonical = `/shop/${shop.slug}`;
-  const title = `${shop.name} — Specialty Coffee Shop in ${shop.city} | Beantrip`;
+  const title = shopTitle(shop);
   const description = shop.description
     ? shop.description.slice(0, 160)
     : `${shop.name} — specialty coffee in ${shop.neighborhood ? `${shop.neighborhood}, ` : ''}${shop.city}.`;
@@ -201,27 +238,50 @@ function homeRoute(cities, shops) {
   };
 }
 
-/** Pages that are public but have no per-page data behind them. */
-function staticRoute(p, title, description, body) {
-  return { canonical: p, title, description, schemas: [], body };
+/** The explore hub: a list of the cities, said twice, once for people and once for machines. */
+function exploreRoute(cities, body) {
+  const itemList = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Cities on Beantrip',
+    numberOfItems: cities.length,
+    itemListElement: cities.map((c, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${SITE_URL}/explore/${c.toLowerCase()}`,
+      name: `Specialty coffee in ${c}`,
+    })),
+  };
+  const breadcrumb = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Explore', item: `${SITE_URL}/explore` }],
+  };
+  return {
+    canonical: '/explore',
+    title: 'Explore the Coffee Scene \u2014 Beantrip',
+    description: SITE_DESCRIPTION,
+    schemas: [itemList, breadcrumb],
+    body,
+  };
 }
 
 function render(shell, route) {
   const url = `${SITE_URL}${route.canonical === '/' ? '/' : route.canonical}`;
   const head = [
-    `<title>${esc(route.title)}</title>`,
-    `<meta name="description" content="${esc(route.description)}" />`,
-    `<link rel="canonical" href="${esc(url)}" />`,
-    `<meta property="og:type" content="website" />`,
-    `<meta property="og:site_name" content="Beantrip" />`,
-    `<meta property="og:title" content="${esc(route.title)}" />`,
-    `<meta property="og:description" content="${esc(route.description)}" />`,
-    `<meta property="og:image" content="${OG_IMAGE}" />`,
-    `<meta property="og:url" content="${esc(url)}" />`,
-    `<meta name="twitter:card" content="summary_large_image" />`,
-    `<meta name="twitter:title" content="${esc(route.title)}" />`,
-    `<meta name="twitter:description" content="${esc(route.description)}" />`,
-    `<meta name="twitter:image" content="${OG_IMAGE}" />`,
+    `<title data-prerendered>${esc(route.title)}</title>`,
+    `<meta data-prerendered name="description" content="${esc(route.description)}" />`,
+    `<link data-prerendered rel="canonical" href="${esc(url)}" />`,
+    `<meta data-prerendered property="og:type" content="website" />`,
+    `<meta data-prerendered property="og:site_name" content="Beantrip" />`,
+    `<meta data-prerendered property="og:title" content="${esc(route.title)}" />`,
+    `<meta data-prerendered property="og:description" content="${esc(route.description)}" />`,
+    `<meta data-prerendered property="og:image" content="${OG_IMAGE}" />`,
+    `<meta data-prerendered property="og:url" content="${esc(url)}" />`,
+    `<meta data-prerendered name="twitter:card" content="summary_large_image" />`,
+    `<meta data-prerendered name="twitter:title" content="${esc(route.title)}" />`,
+    `<meta data-prerendered name="twitter:description" content="${esc(route.description)}" />`,
+    `<meta data-prerendered name="twitter:image" content="${OG_IMAGE}" />`,
     ...route.schemas.map(jsonLd),
   ].join('\n    ');
 
@@ -259,7 +319,7 @@ async function main() {
 
   const routes = [
     homeRoute(cities, shops),
-    staticRoute('/explore', 'Explore the Coffee Scene — Beantrip', SITE_DESCRIPTION,
+    exploreRoute(cities,
       `<h1>Explore the Coffee Scene</h1>\n    <ul>\n      ${cities
         .map((c) => `<li><a href="/explore/${esc(c.toLowerCase())}">Specialty coffee in ${esc(c)}</a></li>`)
         .join('\n      ')}\n    </ul>`),

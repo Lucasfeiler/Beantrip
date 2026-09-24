@@ -161,7 +161,22 @@ export default function ShopDetail() {
   const metaDescription = shop.description
     ? shop.description.slice(0, 160)
     : `${shop.name} — specialty coffee in ${shop.neighborhood ? `${shop.neighborhood}, ` : ''}${shop.city}.`;
-  const metaTitle = `${shop.name} — Specialty Coffee Shop in ${shop.city} | Beantrip`;
+  // Shops with more than one branch under the same name in the same city are
+  // slugged -2, -3. Without something to tell them apart those pages all carry
+  // the same title. scripts/prerender.js uses this same rule, so the title we
+  // serve and the title we render match.
+  const branchLocator =
+    shop.neighborhood && !shop.name.toLowerCase().includes(shop.neighborhood.toLowerCase())
+      ? shop.neighborhood
+      : (shop.address || '')
+          .split(',')[0]
+          .trim()
+          .replace(/^\d+[A-Za-z]?[\s-]+/, '')
+          .replace(/\s+\d+[A-Za-z]?$/, '') || null;
+  const metaTitle =
+    /-\d+$/.test(shop.slug) && branchLocator
+      ? `${shop.name} \u2014 ${branchLocator} \u2014 Specialty Coffee Shop in ${shop.city} | Beantrip`
+      : `${shop.name} \u2014 Specialty Coffee Shop in ${shop.city} | Beantrip`;
 
   const structuredData = {
     '@context': 'https://schema.org',

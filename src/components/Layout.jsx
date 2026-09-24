@@ -129,8 +129,66 @@ export default function Layout({ children }) {
     initAdTracking();
   }, []);
 
+  // Pages are prerendered at build time, so their title, description, canonical
+  // and JSON-LD are already in the document when React mounts. React then adds
+  // its own copies, and two canonicals is worse than one.
+  //
+  // A prerendered tag is only dropped once its replacement is actually there,
+  // never before: a page still loading its data has not rendered its meta yet,
+  // and removing the prerendered one first would leave the page with no title.
+  //
+  // Two things make the timing awkward. React hoists title and link tags into
+  // head a beat after the commit, and ShopDetail renders its JSON-LD inside the
+  // component tree rather than in head. So this sweeps on every render, again on
+  // the next frame, and again whenever head changes.
   useEffect(() => {
-    window.scrollTo(0, 0);
+    function sweep() {
+      const dropReplaced = (selector) => {
+        const all = [...document.head.querySelectorAll(selector)];
+        const stale = all.filter((el) => el.hasAttribute('data-prerendered'));
+        if (all.length > stale.length) stale.forEach((el) => el.remove());
+      };
+
+      dropReplaced('title');
+      dropReplaced('link[rel="canonical"]');
+      dropReplaced('meta[name="description"]');
+
+      // JSON-LD is matched by @type across the whole document, since a page can
+      // carry several blocks and the app renders its own outside head.
+      const byType = new Map();
+      document.querySelectorAll('script[type="application/ld+json"]').forEach((el) => {
+        let type;
+        try {
+          type = JSON.parse(el.textContent)['@type'];
+        } catch {
+          return;
+        }
+        if (!byType.has(type)) byType.set(type, []);
+        byType.get(type).push(el);
+      });
+      byType.forEach((nodes) => {
+        const stale = nodes.filter((el) => el.hasAttribute('data-prerendered'));
+        if (nodes.length > stale.length) stale.forEach((el) => el.remove());
+      });
+    }
+
+    sweep();
+    const frame = requestAnimationFrame(sweep);
+    const observer = new MutationObserver(sweep);
+    observer.observe(document.head, { childList: true });
+    return () => {
+      cancelAnimationFrame(frame);
+      observer.disconnect();
+    };
+  });
+
+  // The prerendered tags describe the URL the browser actually loaded. Once the
+  // app has navigated somewhere else, every one of them is stale, whether or not
+  // the new page happens to render a replacement.
+  const loadedPath = useRef(location.pathname);
+  useEffect(() => {
+    if (location.pathname === loadedPath.current) return;
+    document.querySelectorAll('[data-prerendered]').forEach((el) => el.remove());
   }, [location.pathname]);
 
   return (
