@@ -17,6 +17,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { YEAR as MUNICH_YEAR, PICKS as MUNICH_PICKS } from '../src/data/best-coffee-munich.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE_URL = 'https://beantrip.com';
@@ -266,6 +267,127 @@ function exploreRoute(cities, body) {
   };
 }
 
+
+/**
+ * The rest of the public routes in the sitemap. Each one's title and description
+ * is the same string its page renders, so the served page and the rendered page
+ * agree. Three of them (near me, add shop, feedback) had no meta of their own;
+ * they now do, in the page as well as here.
+ */
+function listPageRoute({ canonical, title, description, heading, intro, links = [], schemas = [] }) {
+  const body = `
+    <h1>${esc(heading)}</h1>
+    <p>${esc(intro)}</p>${
+      links.length
+        ? `\n    <ul>\n      ${links
+            .map((l) => `<li><a href="${esc(l.href)}">${esc(l.label)}</a></li>`)
+            .join('\n      ')}\n    </ul>`
+        : ''
+    }`;
+  return { canonical, title, description, schemas, body };
+}
+
+function munichGuideRoute() {
+  const canonical = '/guides/best-coffee-shops-munich';
+  const itemList = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Best Coffee Shops in Munich (${MUNICH_YEAR})`,
+    itemListElement: MUNICH_PICKS.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${SITE_URL}/shop/${p.slug}`,
+      name: p.name,
+    })),
+  };
+  const breadcrumb = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Munich', item: `${SITE_URL}/explore/munich` },
+      { '@type': 'ListItem', position: 2, name: `Best Coffee Shops in Munich (${MUNICH_YEAR})`, item: `${SITE_URL}${canonical}` },
+    ],
+  };
+  const body = `
+    <h1>Best Coffee Shops in Munich (${MUNICH_YEAR})</h1>
+    <p>Our pick of ${MUNICH_PICKS.length} standout specialty coffee shops across Munich.</p>
+    <ol>
+      ${MUNICH_PICKS.map(
+        (p) =>
+          `<li><a href="/shop/${esc(p.slug)}">${esc(p.name)}</a>${p.neighborhood ? `, ${esc(p.neighborhood)}` : ''}${p.blurb ? ` &mdash; ${esc(p.blurb)}` : ''}</li>`
+      ).join('\n      ')}
+    </ol>`;
+  return {
+    canonical,
+    title: `Best Coffee Shops in Munich (${MUNICH_YEAR}) | Beantrip`,
+    description: `Our pick of ${MUNICH_PICKS.length} standout specialty coffee shops across Munich, from Glockenbach to Altstadt to Schwabing, with real ratings and what makes each one worth the visit.`,
+    schemas: [itemList, breadcrumb],
+    body,
+  };
+}
+
+function otherRoutes(cities, located) {
+  const cityLinks = cities.map((c) => ({
+    href: `/explore/${c.toLowerCase()}`,
+    label: `Specialty coffee in ${c}`,
+  }));
+
+  return [
+    listPageRoute({
+      canonical: '/map',
+      title: 'Coffee Map \u2014 Beantrip',
+      description: `Explore ${located.length} specialty coffee shops on the map. Find the closest spot wherever you are.`,
+      heading: 'Coffee Map',
+      intro: `All ${located.length} specialty coffee shops on one map, across ${cities.length} cities.`,
+      links: cityLinks,
+    }),
+    listPageRoute({
+      canonical: '/near-me',
+      title: 'Coffee Near Me \u2014 Beantrip',
+      description: 'Find specialty coffee shops near you, wherever you are, with opening hours and directions.',
+      heading: 'Coffee Near Me',
+      intro: 'Specialty coffee shops closest to you. Browse by city if you would rather not share your location.',
+      links: cityLinks,
+    }),
+    listPageRoute({
+      canonical: '/news',
+      title: 'Coffee News \u2014 Beantrip',
+      description: 'Stories, updates, and expert commentary from the specialty coffee world, curated by Beantrip.',
+      heading: 'News',
+      intro: 'Stories, updates, and expert commentary from the coffee world.',
+    }),
+    listPageRoute({
+      canonical: '/events',
+      title: 'Coffee Festivals & Events \u2014 Beantrip',
+      description: 'Discover upcoming coffee festivals and specialty coffee events, curated by Beantrip.',
+      heading: 'Events',
+      intro: 'Coffee festivals and events, curated for you.',
+    }),
+    listPageRoute({
+      canonical: '/gear',
+      title: 'Coffee Gear We Love \u2014 Beantrip',
+      description: 'Coffee equipment, brewers, and beans recommended by Beantrip for specialty coffee lovers.',
+      heading: 'Gear We Love',
+      intro: 'Coffee equipment and beans we recommend.',
+    }),
+    munichGuideRoute(),
+    listPageRoute({
+      canonical: '/add-shop',
+      title: 'Add a Coffee Spot \u2014 Beantrip',
+      description: 'Know a specialty coffee shop that belongs on Beantrip? Send it in and we will take a look.',
+      heading: 'Add a Coffee Spot',
+      intro: 'Know a specialty coffee shop that belongs here? Send it in and we will take a look.',
+    }),
+    listPageRoute({
+      canonical: '/feedback',
+      title: 'Feedback \u2014 Beantrip',
+      description: 'Tell us what would make Beantrip more useful. Beantrip is still being built and every note helps.',
+      heading: 'Help shape Beantrip',
+      intro: 'Tell us what would make Beantrip more useful.',
+    }),
+  ];
+}
+
 function render(shell, route) {
   const url = `${SITE_URL}${route.canonical === '/' ? '/' : route.canonical}`;
   const head = [
@@ -324,6 +446,7 @@ async function main() {
         .map((c) => `<li><a href="/explore/${esc(c.toLowerCase())}">Specialty coffee in ${esc(c)}</a></li>`)
         .join('\n      ')}\n    </ul>`),
     ...cities.map((c) => cityRoute(c, shops.filter((s) => s.city === c))),
+    ...otherRoutes(cities, located),
     ...located.map(shopRoute),
   ];
 
@@ -337,7 +460,7 @@ async function main() {
     count += 1;
   }
 
-  console.log(`Prerendered ${count} routes (${cities.length} cities, ${located.length} shops).`);
+  console.log(`Prerendered ${count} routes (${cities.length} cities, ${located.length} shops, ${routes.length - cities.length - located.length} other pages).`);
 }
 
 main().catch((err) => {

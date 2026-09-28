@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { api } from '../lib/api';
 import { useLanguage } from '../context/LanguageContext';
 import { useShops } from '../context/ShopsContext';
+import PageMeta from '../components/PageMeta';
 
 function formatDate(dateString) {
   return new Date(dateString).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' });
@@ -142,6 +143,11 @@ export default function Feedback() {
 
   return (
     <div className="max-w-lg mx-auto px-5 sm:px-8 py-12">
+      <PageMeta
+        title="Feedback \u2014 Beantrip"
+        description="Tell us what would make Beantrip more useful. Beantrip is still being built and every note helps."
+        canonical="/feedback"
+      />
       <h1 className="font-display text-3xl sm:text-4xl font-semibold">{t('feedback.title')}</h1>
       <p className="text-[var(--color-muted-fg)] mt-2">
         {t('feedback.subtitle')}

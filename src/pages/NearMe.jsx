@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../lib/api';
 import { useLanguage } from '../context/LanguageContext';
 import ShopCard from '../components/ShopCard';
+import PageMeta from '../components/PageMeta';
 
 export default function NearMe() {
   const { t } = useLanguage();
@@ -44,6 +45,11 @@ export default function NearMe() {
 
   return (
     <div className="max-w-3xl mx-auto px-5 sm:px-8 py-12">
+      <PageMeta
+        title="Coffee Near Me \u2014 Beantrip"
+        description="Find specialty coffee shops near you, wherever you are, with opening hours and directions."
+        canonical="/near-me"
+      />
       <h1 className="font-display text-3xl sm:text-4xl font-semibold">{t('nearMe.title')}</h1>
       <p className="text-[var(--color-muted-fg)] mt-2">
         {t('nearMe.subtitle')}
