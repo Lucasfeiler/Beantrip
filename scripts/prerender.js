@@ -372,6 +372,14 @@ function otherRoutes(cities, located) {
     }),
     munichGuideRoute(),
     listPageRoute({
+      canonical: '/about',
+      title: 'About Us — Beantrip',
+      description: 'Beantrip connects people who love coffee in special locations anywhere in the world.',
+      heading: 'Beantrip connects people who love coffee in special locations anywhere in the world!',
+      intro: 'Beantrip is a guide to specialty coffee shops. Browse a city, filter by roast, brewing method or vibe, and find the place that fits the moment.',
+      links: cityLinks,
+    }),
+    listPageRoute({
       canonical: '/add-shop',
       title: 'Add a Coffee Spot \u2014 Beantrip',
       description: 'Know a specialty coffee shop that belongs on Beantrip? Send it in and we will take a look.',

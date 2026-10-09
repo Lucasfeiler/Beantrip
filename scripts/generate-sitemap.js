@@ -16,6 +16,7 @@ const STATIC_PATHS = [
   { path: '/events', priority: '0.6' },
   { path: '/gear', priority: '0.5' },
   { path: '/guides/best-coffee-shops-munich', priority: '0.7' },
+  { path: '/about', priority: '0.5' },
   { path: '/add-shop', priority: '0.4' },
   { path: '/feedback', priority: '0.3' },
 ];

@@ -277,6 +277,7 @@ export default function Layout({ children }) {
         <div className="max-w-6xl mx-auto px-5 sm:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-[var(--color-muted-fg)]">
           <p>© 2026 Beantrip</p>
           <div className="flex items-center gap-6">
+            <Link to="/about" className="hover:text-[var(--color-accent)]">{t('footer.about')}</Link>
             <Link to="/privacy" className="hover:text-[var(--color-accent)]">{t('footer.privacy')}</Link>
             <Link to="/terms" className="hover:text-[var(--color-accent)]">{t('footer.terms')}</Link>
             <Link to="/impressum" className="hover:text-[var(--color-accent)]">{t('footer.impressum')}</Link>

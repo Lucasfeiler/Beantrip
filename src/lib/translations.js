@@ -19,6 +19,7 @@ export const translations = {
     'footer.privacy': 'Privacy',
     'footer.terms': 'Terms',
     'footer.impressum': 'Legal Notice',
+    'footer.about': 'About',
 
     'home.feedbackBannerPrefix': '☕ Beantrip is still a work in progress —',
     'home.feedbackBannerLink': 'tell us what to build next',
@@ -238,6 +239,7 @@ export const translations = {
     'footer.privacy': 'Datenschutz',
     'footer.terms': 'AGB',
     'footer.impressum': 'Impressum',
+    'footer.about': 'Über uns',
 
     'home.feedbackBannerPrefix': '☕ Beantrip befindet sich noch im Aufbau —',
     'home.feedbackBannerLink': 'sag uns, was wir als Nächstes bauen sollen',
@@ -457,6 +459,7 @@ export const translations = {
     'footer.privacy': 'Privacy',
     'footer.terms': 'Voorwaarden',
     'footer.impressum': 'Colofon',
+    'footer.about': 'Over ons',
 
     'home.feedbackBannerPrefix': '☕ Beantrip is nog volop in ontwikkeling —',
     'home.feedbackBannerLink': 'laat ons weten wat we hierna moeten bouwen',
@@ -676,6 +679,7 @@ export const translations = {
     'footer.privacy': 'Privacidad',
     'footer.terms': 'Términos',
     'footer.impressum': 'Aviso legal',
+    'footer.about': 'Acerca de',
 
     'home.feedbackBannerPrefix': '☕ Beantrip todavía está en desarrollo —',
     'home.feedbackBannerLink': 'cuéntanos qué deberíamos crear a continuación',

@@ -30,6 +30,7 @@ const Passport = lazy(() => import('./pages/Passport'));
 const Gear = lazy(() => import('./pages/Gear'));
 const Feedback = lazy(() => import('./pages/Feedback'));
 const BestCoffeeMunich = lazy(() => import('./pages/BestCoffeeMunich'));
+const About = lazy(() => import('./pages/About'));
 const Privacy = lazy(() => import('./pages/StaticPages').then((m) => ({ default: m.Privacy })));
 const Terms = lazy(() => import('./pages/StaticPages').then((m) => ({ default: m.Terms })));
 const Impressum = lazy(() => import('./pages/StaticPages').then((m) => ({ default: m.Impressum })));
@@ -77,6 +78,7 @@ export default function App() {
                       <Route path="/feedback" element={<Feedback />} />
                       <Route path="/reset-password" element={<ResetPassword />} />
                       <Route path="/verify-email" element={<VerifyEmail />} />
+                      <Route path="/about" element={<About />} />
                       <Route path="/privacy" element={<Privacy />} />
                       <Route path="/terms" element={<Terms />} />
                       <Route path="/impressum" element={<Impressum />} />
