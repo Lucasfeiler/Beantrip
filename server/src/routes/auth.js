@@ -64,6 +64,7 @@ function publicUser(user, visitCount = 0) {
     occupation: user.occupation,
     onboardingSeen: user.onboardingSeen,
     tourSeen: user.tourSeen,
+    marketingConsent: user.marketingConsent,
     createdAt: user.createdAt,
     visitCount,
   };
@@ -168,7 +169,7 @@ authRouter.patch('/me', requireAuth, async (req, res) => {
   const {
     name, location, bio, gender, favoriteRoast, favoriteBrewMethod,
     ageRange, coffeeSpend, referralSource, occupation,
-    onboardingSeen, tourSeen,
+    onboardingSeen, tourSeen, marketingConsent,
   } = req.body;
   if (name !== undefined && !name.trim()) {
     return res.status(400).json({ error: 'Name cannot be empty' });
@@ -210,6 +211,7 @@ authRouter.patch('/me', requireAuth, async (req, res) => {
       ...(occupation !== undefined ? { occupation } : {}),
       ...(onboardingSeen !== undefined ? { onboardingSeen: !!onboardingSeen } : {}),
       ...(tourSeen !== undefined ? { tourSeen: !!tourSeen } : {}),
+      ...(marketingConsent !== undefined ? { marketingConsent: !!marketingConsent } : {}),
     },
   });
 

@@ -28,6 +28,7 @@ model User {
   occupation         String?
   onboardingSeen     Boolean  @default(false)
   tourSeen           Boolean  @default(false)
+  marketingConsent   Boolean  @default(false)
   createdAt    DateTime   @default(now())
   favorites    Favorite[]
   reviews      Review[]
