@@ -1,26 +1,13 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { api } from '../lib/api';
 import PhotoGallery from '../components/PhotoGallery';
+import PageMeta from '../components/PageMeta';
 import { isTopVoted } from '../components/ShopCard';
 import { useFavorites } from '../context/FavoritesContext';
 import { useVisits } from '../context/VisitsContext';
 import { useAuth } from '../context/AuthContext';
 import { useLanguage } from '../context/LanguageContext';
-
-// Overrides the site-wide <meta name="description"> in place instead of
-// rendering a second one -- React doesn't dedupe meta tags across separate
-// component trees, so two instances would otherwise both stay in the DOM.
-function MetaDescription({ content }) {
-  useEffect(() => {
-    const el = document.querySelector('meta[name="description"]');
-    if (!el) return;
-    const previous = el.getAttribute('content');
-    el.setAttribute('content', content);
-    return () => el.setAttribute('content', previous);
-  }, [content]);
-  return null;
-}
 
 const dayKeys = { mon: 'shop.dayMon', tue: 'shop.dayTue', wed: 'shop.dayWed', thu: 'shop.dayThu', fri: 'shop.dayFri', sat: 'shop.daySat', sun: 'shop.daySun' };
 const tasteKeys = { bright: 'shop.tasteBright', earthy: 'shop.tasteEarthy' };
@@ -33,12 +20,14 @@ const originKeys = {
 export default function ShopDetail() {
   const { slug } = useParams();
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { user } = useAuth();
   const { t } = useLanguage();
   const { isFavorite, toggleFavorite } = useFavorites();
   const { isVisited, toggleVisit } = useVisits();
 
   const [shop, setShop] = useState(null);
+  const [justCheckedIn, setJustCheckedIn] = useState(false);
   const [notFound, setNotFound] = useState(false);
   const [reviews, setReviews] = useState([]);
   const [reviewForm, setReviewForm] = useState({ rating: 5, text: '' });
@@ -86,6 +75,24 @@ export default function ShopDetail() {
     loadUserPhotos();
     api.trackShopEvent(slug, 'view').catch(() => {});
   }, [slug]);
+
+  // QR check-in: scanning a shop's code lands here with ?checkin=1 -- mark
+  // it visited automatically instead of making the user tap again. Anyone
+  // not signed in yet keeps the param (so signing in and coming back still
+  // completes the check-in) until it's actually acted on.
+  const pendingCheckIn = searchParams.get('checkin') === '1';
+  useEffect(() => {
+    if (!shop || !user || !pendingCheckIn) return;
+    if (!isVisited(shop.id)) {
+      toggleVisit(shop.id);
+      setJustCheckedIn(true);
+    }
+    setSearchParams((params) => {
+      params.delete('checkin');
+      return params;
+    }, { replace: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [shop, user, pendingCheckIn]);
 
   const trackClick = (target) => () => {
     api.trackShopEvent(slug, 'click', target).catch(() => {});
@@ -154,6 +161,22 @@ export default function ShopDetail() {
   const metaDescription = shop.description
     ? shop.description.slice(0, 160)
     : `${shop.name} — specialty coffee in ${shop.neighborhood ? `${shop.neighborhood}, ` : ''}${shop.city}.`;
+  // Shops with more than one branch under the same name in the same city are
+  // slugged -2, -3. Without something to tell them apart those pages all carry
+  // the same title. scripts/prerender.js uses this same rule, so the title we
+  // serve and the title we render match.
+  const branchLocator =
+    shop.neighborhood && !shop.name.toLowerCase().includes(shop.neighborhood.toLowerCase())
+      ? shop.neighborhood
+      : (shop.address || '')
+          .split(',')[0]
+          .trim()
+          .replace(/^\d+[A-Za-z]?[\s-]+/, '')
+          .replace(/\s+\d+[A-Za-z]?$/, '') || null;
+  const metaTitle =
+    /-\d+$/.test(shop.slug) && branchLocator
+      ? `${shop.name} \u2014 ${branchLocator} \u2014 Specialty Coffee Shop in ${shop.city} | Beantrip`
+      : `${shop.name} \u2014 Specialty Coffee Shop in ${shop.city} | Beantrip`;
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -177,15 +200,25 @@ export default function ShopDetail() {
 
   return (
     <div className="max-w-3xl mx-auto px-5 sm:px-8 py-8">
-      <title>{`${shop.name} — Beantrip`}</title>
-      <MetaDescription content={metaDescription} />
+      <PageMeta title={metaTitle} description={metaDescription} canonical={`/shop/${shop.slug}`} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredDataJson }} />
 
-      <Link to="/explore" className="text-sm font-semibold text-[var(--color-accent)] hover:underline">
-        {t('shop.backToExplore')}
+      <Link to={`/explore/${shop.city.toLowerCase()}`} className="text-sm font-semibold text-[var(--color-accent)] hover:underline">
+        {t('shop.backToCity')} {shop.city}
       </Link>
 
-      <PhotoGallery shop={shop} className="w-full h-56 sm:h-72 rounded-2xl mt-4" />
+      {justCheckedIn && (
+        <div className="mt-4 bg-[var(--color-accent)] text-[var(--color-accent-fg)] rounded-xl px-4 py-3 text-sm font-semibold">
+          ✓ Checked in at {shop.name}
+        </div>
+      )}
+      {pendingCheckIn && !user && (
+        <div className="mt-4 bg-[var(--color-card)] border border-[var(--color-border)] rounded-xl px-4 py-3 text-sm">
+          <Link to="/auth" className="text-[var(--color-accent)] font-semibold hover:underline">Sign in</Link> to save this check-in.
+        </div>
+      )}
+
+      <PhotoGallery shop={shop} className="w-full h-56 sm:h-72 rounded-2xl mt-4" priority />
 
       <div className="flex items-start justify-between gap-4 mt-6">
         <div>

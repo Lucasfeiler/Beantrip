@@ -63,7 +63,12 @@ export function ShopThumb({ shop, className = '' }) {
   );
 }
 
-export default function ShopCard({ shop }) {
+function formatDistance(meters) {
+  if (meters < 1000) return `${meters} m`;
+  return `${(meters / 1000).toFixed(1)} km`;
+}
+
+export default function ShopCard({ shop, distanceMeters }) {
   const { isFavorite, toggleFavorite } = useFavorites();
   const { user } = useAuth();
   const { t } = useLanguage();
@@ -80,6 +85,11 @@ export default function ShopCard({ shop }) {
       <Link to={`/shop/${shop.slug}`}>
         <PhotoGallery shop={shop} className="h-36 w-full" />
       </Link>
+      {distanceMeters != null && (
+        <span className="absolute top-2 left-2 text-[10px] font-semibold uppercase tracking-wide bg-[var(--color-card)]/90 text-[var(--color-fg)] px-2 py-1 rounded-full">
+          {formatDistance(distanceMeters)}
+        </span>
+      )}
       <button
         onClick={handleFavoriteClick}
         aria-label={fav ? t('card.removeFavorite') : t('card.saveFavorite')}

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { api } from '../lib/api';
+import PageMeta from '../components/PageMeta';
 
 export default function Gear() {
   const [items, setItems] = useState(null);
@@ -13,6 +14,11 @@ export default function Gear() {
 
   return (
     <div className="max-w-6xl mx-auto px-5 sm:px-8 py-10">
+      <PageMeta
+        title="Coffee Gear We Love — Beantrip"
+        description="Coffee equipment, brewers, and beans recommended by Beantrip for specialty coffee lovers."
+        canonical="/gear"
+      />
       <h1 className="font-display text-3xl sm:text-4xl font-semibold">Gear We Love</h1>
       <p className="text-[var(--color-muted-fg)] mt-1">Coffee equipment and beans we recommend.</p>
 

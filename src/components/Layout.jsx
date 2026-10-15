@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import { useLanguage, LANGUAGES } from '../context/LanguageContext';
 import NotificationPrompt from './NotificationPrompt';
 import FeedbackModal from './FeedbackModal';
-import CookieConsent from './CookieConsent';
+import QRCheckIn from './QRCheckIn';
 import { initAdTracking } from '../lib/adTracking';
 
 const ONBOARDING_EXEMPT_PATHS = ['/onboarding', '/reset-password', '/verify-email'];
@@ -129,6 +129,68 @@ export default function Layout({ children }) {
     initAdTracking();
   }, []);
 
+  // Pages are prerendered at build time, so their title, description, canonical
+  // and JSON-LD are already in the document when React mounts. React then adds
+  // its own copies, and two canonicals is worse than one.
+  //
+  // A prerendered tag is only dropped once its replacement is actually there,
+  // never before: a page still loading its data has not rendered its meta yet,
+  // and removing the prerendered one first would leave the page with no title.
+  //
+  // Two things make the timing awkward. React hoists title and link tags into
+  // head a beat after the commit, and ShopDetail renders its JSON-LD inside the
+  // component tree rather than in head. So this sweeps on every render, again on
+  // the next frame, and again whenever head changes.
+  useEffect(() => {
+    function sweep() {
+      const dropReplaced = (selector) => {
+        const all = [...document.head.querySelectorAll(selector)];
+        const stale = all.filter((el) => el.hasAttribute('data-prerendered'));
+        if (all.length > stale.length) stale.forEach((el) => el.remove());
+      };
+
+      dropReplaced('title');
+      dropReplaced('link[rel="canonical"]');
+      dropReplaced('meta[name="description"]');
+
+      // JSON-LD is matched by @type across the whole document, since a page can
+      // carry several blocks and the app renders its own outside head.
+      const byType = new Map();
+      document.querySelectorAll('script[type="application/ld+json"]').forEach((el) => {
+        let type;
+        try {
+          type = JSON.parse(el.textContent)['@type'];
+        } catch {
+          return;
+        }
+        if (!byType.has(type)) byType.set(type, []);
+        byType.get(type).push(el);
+      });
+      byType.forEach((nodes) => {
+        const stale = nodes.filter((el) => el.hasAttribute('data-prerendered'));
+        if (nodes.length > stale.length) stale.forEach((el) => el.remove());
+      });
+    }
+
+    sweep();
+    const frame = requestAnimationFrame(sweep);
+    const observer = new MutationObserver(sweep);
+    observer.observe(document.head, { childList: true });
+    return () => {
+      cancelAnimationFrame(frame);
+      observer.disconnect();
+    };
+  });
+
+  // The prerendered tags describe the URL the browser actually loaded. Once the
+  // app has navigated somewhere else, every one of them is stale, whether or not
+  // the new page happens to render a replacement.
+  const loadedPath = useRef(location.pathname);
+  useEffect(() => {
+    if (location.pathname === loadedPath.current) return;
+    document.querySelectorAll('[data-prerendered]').forEach((el) => el.remove());
+  }, [location.pathname]);
+
   return (
     <div className="min-h-screen flex flex-col">
       <meta name="description" content="Beantrip helps you discover the world's best specialty coffee shops. Browse reviews, filter by roast type and brewing method, and find your perfect cup." />
@@ -209,12 +271,13 @@ export default function Layout({ children }) {
 
       <FeedbackModal />
       <NotificationPrompt />
-      <CookieConsent />
+      <QRCheckIn />
 
       <footer className="border-t border-[var(--color-border)] mt-20">
         <div className="max-w-6xl mx-auto px-5 sm:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-[var(--color-muted-fg)]">
           <p>© 2026 Beantrip</p>
           <div className="flex items-center gap-6">
+            <Link to="/about" className="hover:text-[var(--color-accent)]">{t('footer.about')}</Link>
             <Link to="/privacy" className="hover:text-[var(--color-accent)]">{t('footer.privacy')}</Link>
             <Link to="/terms" className="hover:text-[var(--color-accent)]">{t('footer.terms')}</Link>
             <Link to="/impressum" className="hover:text-[var(--color-accent)]">{t('footer.impressum')}</Link>

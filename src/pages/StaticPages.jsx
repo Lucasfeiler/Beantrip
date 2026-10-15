@@ -1,6 +1,10 @@
-function StaticPage({ title, updated, children }) {
+import PageMeta from '../components/PageMeta';
+import { useLanguage } from '../context/LanguageContext';
+
+function StaticPage({ title, updated, metaDescription, canonical, children }) {
   return (
     <div className="max-w-2xl mx-auto px-5 sm:px-8 py-16">
+      <PageMeta title={`${title} — Beantrip`} description={metaDescription} canonical={canonical} />
       <h1 className="font-display text-3xl font-semibold mb-2">{title}</h1>
       {updated && <p className="text-xs text-[var(--color-muted-fg)] mb-6">Last updated {updated}</p>}
       <div className="prose prose-sm text-[var(--color-muted-fg)] space-y-4">{children}</div>
@@ -13,8 +17,14 @@ function H2({ children }) {
 }
 
 export function Privacy() {
+  const { t } = useLanguage();
   return (
-    <StaticPage title="Privacy Policy" updated="August 2026">
+    <StaticPage
+      title="Privacy Policy"
+      updated="August 2026"
+      canonical="/privacy"
+      metaDescription="How Beantrip collects, uses, and protects your data, and the choices you have about it."
+    >
       <p>
         Beantrip ("we", "us") helps you discover specialty coffee shops. This page explains what
         information we collect, why, and what control you have over it.
@@ -60,16 +70,14 @@ export function Privacy() {
         change your email, reset your password, turn notifications on or off, and delete your account
         entirely — all from the Profile page, without needing to contact us. If you'd like to reach us
         about anything else, see the contact details on our{' '}
-        <a href="/impressum" className="text-[var(--color-accent)] font-semibold hover:underline">Impressum</a> page.</p>
+        <a href="/impressum" className="text-[var(--color-accent)] font-semibold hover:underline">{t('footer.impressum')}</a> page.</p>
 
       <H2>Cookies and local storage</H2>
       <p>Your sign-in session and preferences (like your language choice) are kept in your browser's
-        local storage, not a cookie, and aren't shared with third parties. When you first visit
-        Beantrip, we ask whether you're okay with optional cookies used for analytics and advertising.
-        We only load those if you say yes, and you can decline without losing access to any feature of
-        the app. At the time of writing we haven't yet connected an advertising platform, so declining
-        or accepting currently has no practical effect — but the setting is in place so tracking never
-        starts without your permission once we do.</p>
+        local storage, not a cookie, and aren't shared with third parties. We don't currently use any
+        analytics or advertising cookies, and no tracking of any kind happens when you use Beantrip. If
+        that changes in the future, we'll ask for your permission first and update this policy before
+        anything starts.</p>
 
       <H2>Changes to this policy</H2>
       <p>If this policy changes in a meaningful way, we'll update the date at the top of this page.</p>
@@ -78,8 +86,14 @@ export function Privacy() {
 }
 
 export function Terms() {
+  const { t } = useLanguage();
   return (
-    <StaticPage title="Terms of Service" updated="July 2026">
+    <StaticPage
+      title="Terms of Service"
+      updated="July 2026"
+      canonical="/terms"
+      metaDescription="The terms you agree to when creating an account or using Beantrip."
+    >
       <p>By creating an account or using Beantrip, you agree to these terms.</p>
 
       <H2>Your account</H2>
@@ -116,15 +130,20 @@ export function Terms() {
 
       <H2>Contact</H2>
       <p>Questions about these terms? See the contact details on our{' '}
-        <a href="/impressum" className="text-[var(--color-accent)] font-semibold hover:underline">Impressum</a> page.</p>
+        <a href="/impressum" className="text-[var(--color-accent)] font-semibold hover:underline">{t('footer.impressum')}</a> page.</p>
     </StaticPage>
   );
 }
 
 export function Impressum() {
+  const { t } = useLanguage();
   return (
-    <StaticPage title="Impressum">
-      <H2>Angaben gemäß § 5 TMG</H2>
+    <StaticPage
+      title={t('footer.impressum')}
+      canonical="/impressum"
+      metaDescription="Legal disclosure and contact details for Beantrip, in accordance with German law (§ 5 TMG)."
+    >
+      <H2>Information pursuant to § 5 TMG (German Telemedia Act)</H2>
       <p>
         Lucas Feiler<br />
         Auf dem Kyberg 9<br />

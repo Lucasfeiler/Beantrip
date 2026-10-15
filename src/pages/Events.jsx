@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../lib/api';
+import PageMeta from '../components/PageMeta';
 
 function formatDate(dateString) {
   if (!dateString) return '';
@@ -19,6 +20,11 @@ export default function Events() {
 
   return (
     <div className="max-w-6xl mx-auto px-5 sm:px-8 py-10">
+      <PageMeta
+        title="Coffee Festivals & Events — Beantrip"
+        description="Discover upcoming coffee festivals and specialty coffee events, curated by Beantrip."
+        canonical="/events"
+      />
       <h1 className="font-display text-3xl sm:text-4xl font-semibold">Events</h1>
       <p className="text-[var(--color-muted-fg)] mt-1">Coffee festivals and events, curated for you.</p>
 

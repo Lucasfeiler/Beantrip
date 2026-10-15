@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useShops } from '../context/ShopsContext';
 import { api } from '../lib/api';
+import PageMeta from '../components/PageMeta';
 
 export default function AddShop() {
   const { cities } = useShops();
@@ -42,6 +43,11 @@ export default function AddShop() {
 
   return (
     <div className="max-w-lg mx-auto px-5 sm:px-8 py-12">
+      <PageMeta
+        title="Add a Coffee Spot \u2014 Beantrip"
+        description="Know a specialty coffee shop that belongs on Beantrip? Send it in and we will take a look."
+        canonical="/add-shop"
+      />
       <h1 className="font-display text-3xl sm:text-4xl font-semibold">Add a Coffee Spot</h1>
       <p className="text-[var(--color-muted-fg)] mt-2">Know a great specialty coffee shop we're missing?</p>
 

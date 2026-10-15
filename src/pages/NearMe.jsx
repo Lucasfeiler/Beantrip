@@ -1,11 +1,8 @@
 import { useEffect, useState } from 'react';
 import { api } from '../lib/api';
 import { useLanguage } from '../context/LanguageContext';
-
-function formatDistance(meters) {
-  if (meters < 1000) return `${meters} m`;
-  return `${(meters / 1000).toFixed(1)} km`;
-}
+import ShopCard from '../components/ShopCard';
+import PageMeta from '../components/PageMeta';
 
 export default function NearMe() {
   const { t } = useLanguage();
@@ -48,6 +45,11 @@ export default function NearMe() {
 
   return (
     <div className="max-w-3xl mx-auto px-5 sm:px-8 py-12">
+      <PageMeta
+        title="Coffee Near Me \u2014 Beantrip"
+        description="Find specialty coffee shops near you, wherever you are, with opening hours and directions."
+        canonical="/near-me"
+      />
       <h1 className="font-display text-3xl sm:text-4xl font-semibold">{t('nearMe.title')}</h1>
       <p className="text-[var(--color-muted-fg)] mt-2">
         {t('nearMe.subtitle')}
@@ -95,32 +97,21 @@ export default function NearMe() {
       )}
 
       {status === 'ready' && shops.length > 0 && (
-        <ul className="mt-8 flex flex-col gap-3">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
           {shops.map((s) => (
-            <li
-              key={s.id}
-              className="bg-[var(--color-card)] border border-[var(--color-border)] rounded-xl p-4 flex items-start justify-between gap-4"
-            >
-              <div>
-                <p className="font-display font-semibold">{s.name}</p>
-                {s.address && <p className="text-sm text-[var(--color-muted-fg)] mt-1">{s.address}</p>}
-                {s.website && (
-                  <a
-                    href={s.website}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-sm font-semibold text-[var(--color-accent)] hover:underline mt-1 inline-block"
-                  >
-                    {t('nearMe.website')}
-                  </a>
-                )}
-              </div>
-              <span className="shrink-0 text-sm font-semibold text-[var(--color-accent)]">
-                {formatDistance(s.distanceMeters)}
-              </span>
-            </li>
+            <div key={s.id} className="flex flex-col gap-2">
+              <ShopCard shop={s} distanceMeters={s.distanceMeters} />
+              <a
+                href={`https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm font-semibold text-[var(--color-accent)] hover:underline text-center"
+              >
+                {t('nearMe.directions')}
+              </a>
+            </div>
           ))}
-        </ul>
+        </div>
       )}
     </div>
   );

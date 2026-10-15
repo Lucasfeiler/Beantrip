@@ -40,6 +40,10 @@ shopsRouter.get('/', async (req, res) => {
     return true;
   });
 
+  // Shop data barely changes minute to minute, but every page that needs the
+  // list re-requests it -- a short cache avoids re-running this full-table
+  // scan and re-sending the ~700KB payload for every repeat request.
+  res.set('Cache-Control', 'public, max-age=60');
   res.json({ shops: filtered });
 });
 
@@ -47,6 +51,7 @@ shopsRouter.get('/meta', async (_req, res) => {
   const shops = await prisma.shop.findMany({ select: { city: true, tags: true } });
   const cities = Array.from(new Set(shops.map((s) => s.city))).sort();
   const allTags = Array.from(new Set(shops.flatMap((s) => s.tags))).sort();
+  res.set('Cache-Control', 'public, max-age=60');
   res.json({ cities, allTags });
 });
 

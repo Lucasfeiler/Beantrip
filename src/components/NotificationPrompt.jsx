@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../lib/api';
-import { requestNotificationToken } from '../lib/firebase';
 
 const DISMISSED_KEY = 'coffeespots:notif-prompt-dismissed';
 
@@ -28,6 +27,7 @@ export default function NotificationPrompt() {
     setError('');
     setStatus('enabling');
     try {
+      const { requestNotificationToken } = await import('../lib/firebase');
       const token = await requestNotificationToken();
       await api.registerDeviceToken(token);
       localStorage.setItem(DISMISSED_KEY, '1');

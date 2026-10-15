@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useShops } from '../context/ShopsContext';
 import { useLanguage } from '../context/LanguageContext';
 import { loadGoogleMaps } from '../lib/loadGoogleMaps';
+import PageMeta from '../components/PageMeta';
 
 export default function MapPage() {
   const { shops } = useShops();
@@ -100,6 +101,11 @@ export default function MapPage() {
 
   return (
     <div className="max-w-6xl mx-auto px-5 sm:px-8 py-12">
+      <PageMeta
+        title="Coffee Map — Beantrip"
+        description={`Explore ${located.length} specialty coffee shops on the map. Find the closest spot wherever you are.`}
+        canonical="/map"
+      />
       <h1 className="font-display text-3xl sm:text-4xl font-semibold">{t('map.title')}</h1>
       <p className="text-[var(--color-muted-fg)] mt-2 max-w-xl">
         {t('map.subtitle', { count: located.length })}

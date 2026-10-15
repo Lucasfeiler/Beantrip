@@ -1,0 +1,702 @@
+[
+  {
+    "slug": "wildmosers-restaurant-cafe-am-marienplatz-munchen",
+    "images": [
+      "/images/shops/gallery/wildmosers-restaurant-cafe-am-marienplatz-munchen-1.jpg",
+      "/images/shops/gallery/wildmosers-restaurant-cafe-am-marienplatz-munchen-2.jpg",
+      "/images/shops/gallery/wildmosers-restaurant-cafe-am-marienplatz-munchen-3.jpg",
+      "/images/shops/gallery/wildmosers-restaurant-cafe-am-marienplatz-munchen-4.jpg",
+      "/images/shops/gallery/wildmosers-restaurant-cafe-am-marienplatz-munchen-5.jpg"
+    ]
+  },
+  {
+    "slug": "botanista-cafe-club",
+    "images": [
+      "/images/shops/gallery/botanista-cafe-club-1.jpg",
+      "/images/shops/gallery/botanista-cafe-club-2.jpg",
+      "/images/shops/gallery/botanista-cafe-club-3.jpg",
+      "/images/shops/gallery/botanista-cafe-club-4.jpg",
+      "/images/shops/gallery/botanista-cafe-club-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-buur",
+    "images": [
+      "/images/shops/gallery/cafe-buur-1.jpg",
+      "/images/shops/gallery/cafe-buur-2.jpg",
+      "/images/shops/gallery/cafe-buur-3.jpg",
+      "/images/shops/gallery/cafe-buur-4.jpg",
+      "/images/shops/gallery/cafe-buur-5.jpg"
+    ]
+  },
+  {
+    "slug": "neuhauser",
+    "images": [
+      "/images/shops/gallery/neuhauser-1.jpg",
+      "/images/shops/gallery/neuhauser-2.jpg",
+      "/images/shops/gallery/neuhauser-3.jpg",
+      "/images/shops/gallery/neuhauser-4.jpg",
+      "/images/shops/gallery/neuhauser-5.jpg"
+    ]
+  },
+  {
+    "slug": "madam-anna-ekke-glockenbach-brunch-dinner",
+    "images": [
+      "/images/shops/gallery/madam-anna-ekke-glockenbach-brunch-dinner-1.jpg",
+      "/images/shops/gallery/madam-anna-ekke-glockenbach-brunch-dinner-2.jpg",
+      "/images/shops/gallery/madam-anna-ekke-glockenbach-brunch-dinner-3.jpg",
+      "/images/shops/gallery/madam-anna-ekke-glockenbach-brunch-dinner-4.jpg",
+      "/images/shops/gallery/madam-anna-ekke-glockenbach-brunch-dinner-5.jpg"
+    ]
+  },
+  {
+    "slug": "fausto-kaffeerosterei-gmbh",
+    "images": [
+      "/images/shops/gallery/fausto-kaffeerosterei-gmbh-1.jpg",
+      "/images/shops/gallery/fausto-kaffeerosterei-gmbh-2.jpg",
+      "/images/shops/gallery/fausto-kaffeerosterei-gmbh-3.jpg",
+      "/images/shops/gallery/fausto-kaffeerosterei-gmbh-4.jpg",
+      "/images/shops/gallery/fausto-kaffeerosterei-gmbh-5.jpg"
+    ]
+  },
+  {
+    "slug": "argana-taste-of-morocco",
+    "images": [
+      "/images/shops/gallery/argana-taste-of-morocco-1.jpg",
+      "/images/shops/gallery/argana-taste-of-morocco-2.jpg",
+      "/images/shops/gallery/argana-taste-of-morocco-3.jpg",
+      "/images/shops/gallery/argana-taste-of-morocco-4.jpg",
+      "/images/shops/gallery/argana-taste-of-morocco-5.jpg"
+    ]
+  },
+  {
+    "slug": "nebenan-brunch-bar",
+    "images": [
+      "/images/shops/gallery/nebenan-brunch-bar-1.jpg",
+      "/images/shops/gallery/nebenan-brunch-bar-2.jpg",
+      "/images/shops/gallery/nebenan-brunch-bar-3.jpg",
+      "/images/shops/gallery/nebenan-brunch-bar-4.jpg",
+      "/images/shops/gallery/nebenan-brunch-bar-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-fraulein",
+    "images": [
+      "/images/shops/gallery/cafe-fraulein-1.jpg",
+      "/images/shops/gallery/cafe-fraulein-2.jpg",
+      "/images/shops/gallery/cafe-fraulein-3.jpg",
+      "/images/shops/gallery/cafe-fraulein-4.jpg",
+      "/images/shops/gallery/cafe-fraulein-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-lozzi",
+    "images": [
+      "/images/shops/gallery/cafe-lozzi-1.jpg",
+      "/images/shops/gallery/cafe-lozzi-2.jpg",
+      "/images/shops/gallery/cafe-lozzi-3.jpg",
+      "/images/shops/gallery/cafe-lozzi-4.jpg",
+      "/images/shops/gallery/cafe-lozzi-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-la-maison",
+    "images": [
+      "/images/shops/gallery/cafe-la-maison-1.jpg",
+      "/images/shops/gallery/cafe-la-maison-2.jpg",
+      "/images/shops/gallery/cafe-la-maison-3.jpg",
+      "/images/shops/gallery/cafe-la-maison-4.jpg",
+      "/images/shops/gallery/cafe-la-maison-5.jpg"
+    ]
+  },
+  {
+    "slug": "a-small-cafe-bar",
+    "images": [
+      "/images/shops/gallery/a-small-cafe-bar-1.jpg",
+      "/images/shops/gallery/a-small-cafe-bar-2.jpg",
+      "/images/shops/gallery/a-small-cafe-bar-3.jpg",
+      "/images/shops/gallery/a-small-cafe-bar-4.jpg",
+      "/images/shops/gallery/a-small-cafe-bar-5.jpg"
+    ]
+  },
+  {
+    "slug": "roca-junior-artisan-coffee",
+    "images": [
+      "/images/shops/gallery/roca-junior-artisan-coffee-1.jpg",
+      "/images/shops/gallery/roca-junior-artisan-coffee-2.jpg",
+      "/images/shops/gallery/roca-junior-artisan-coffee-3.jpg",
+      "/images/shops/gallery/roca-junior-artisan-coffee-4.jpg",
+      "/images/shops/gallery/roca-junior-artisan-coffee-5.jpg"
+    ]
+  },
+  {
+    "slug": "cofx-4-speciality-coffee",
+    "images": [
+      "/images/shops/gallery/cofx-4-speciality-coffee-1.jpg",
+      "/images/shops/gallery/cofx-4-speciality-coffee-2.jpg",
+      "/images/shops/gallery/cofx-4-speciality-coffee-3.jpg",
+      "/images/shops/gallery/cofx-4-speciality-coffee-4.jpg",
+      "/images/shops/gallery/cofx-4-speciality-coffee-5.jpg"
+    ]
+  },
+  {
+    "slug": "dinatale-cafe",
+    "images": [
+      "/images/shops/gallery/dinatale-cafe-1.jpg",
+      "/images/shops/gallery/dinatale-cafe-2.jpg",
+      "/images/shops/gallery/dinatale-cafe-3.jpg",
+      "/images/shops/gallery/dinatale-cafe-4.jpg",
+      "/images/shops/gallery/dinatale-cafe-5.jpg"
+    ]
+  },
+  {
+    "slug": "om-nom-nom-cafe",
+    "images": [
+      "/images/shops/gallery/om-nom-nom-cafe-1.jpg",
+      "/images/shops/gallery/om-nom-nom-cafe-2.jpg",
+      "/images/shops/gallery/om-nom-nom-cafe-3.jpg",
+      "/images/shops/gallery/om-nom-nom-cafe-4.jpg",
+      "/images/shops/gallery/om-nom-nom-cafe-5.jpg"
+    ]
+  },
+  {
+    "slug": "caffe-conte-tagesbar",
+    "images": [
+      "/images/shops/gallery/caffe-conte-tagesbar-1.jpg",
+      "/images/shops/gallery/caffe-conte-tagesbar-2.jpg",
+      "/images/shops/gallery/caffe-conte-tagesbar-3.jpg",
+      "/images/shops/gallery/caffe-conte-tagesbar-4.jpg",
+      "/images/shops/gallery/caffe-conte-tagesbar-5.jpg"
+    ]
+  },
+  {
+    "slug": "morso",
+    "images": [
+      "/images/shops/gallery/morso-1.jpg",
+      "/images/shops/gallery/morso-2.jpg",
+      "/images/shops/gallery/morso-3.jpg",
+      "/images/shops/gallery/morso-4.jpg",
+      "/images/shops/gallery/morso-5.jpg"
+    ]
+  },
+  {
+    "slug": "lollo-rosso-caffe-bar",
+    "images": [
+      "/images/shops/gallery/lollo-rosso-caffe-bar-1.jpg",
+      "/images/shops/gallery/lollo-rosso-caffe-bar-2.jpg",
+      "/images/shops/gallery/lollo-rosso-caffe-bar-3.jpg",
+      "/images/shops/gallery/lollo-rosso-caffe-bar-4.jpg",
+      "/images/shops/gallery/lollo-rosso-caffe-bar-5.jpg"
+    ]
+  },
+  {
+    "slug": "life-is-sweet-munich-cafe-cheesecakes-cakes-ny-cookies",
+    "images": [
+      "/images/shops/gallery/life-is-sweet-munich-cafe-cheesecakes-cakes-ny-cookies-1.jpg",
+      "/images/shops/gallery/life-is-sweet-munich-cafe-cheesecakes-cakes-ny-cookies-2.jpg",
+      "/images/shops/gallery/life-is-sweet-munich-cafe-cheesecakes-cakes-ny-cookies-3.jpg",
+      "/images/shops/gallery/life-is-sweet-munich-cafe-cheesecakes-cakes-ny-cookies-4.jpg",
+      "/images/shops/gallery/life-is-sweet-munich-cafe-cheesecakes-cakes-ny-cookies-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-johannis",
+    "images": [
+      "/images/shops/gallery/cafe-johannis-1.jpg",
+      "/images/shops/gallery/cafe-johannis-2.jpg",
+      "/images/shops/gallery/cafe-johannis-3.jpg",
+      "/images/shops/gallery/cafe-johannis-4.jpg",
+      "/images/shops/gallery/cafe-johannis-5.jpg"
+    ]
+  },
+  {
+    "slug": "gangundgabe",
+    "images": [
+      "/images/shops/gallery/gangundgabe-1.jpg",
+      "/images/shops/gallery/gangundgabe-2.jpg",
+      "/images/shops/gallery/gangundgabe-3.jpg",
+      "/images/shops/gallery/gangundgabe-4.jpg",
+      "/images/shops/gallery/gangundgabe-5.jpg"
+    ]
+  },
+  {
+    "slug": "mackgorilla-cafe-coffee-more",
+    "images": [
+      "/images/shops/gallery/mackgorilla-cafe-coffee-more-1.jpg",
+      "/images/shops/gallery/mackgorilla-cafe-coffee-more-2.jpg",
+      "/images/shops/gallery/mackgorilla-cafe-coffee-more-3.jpg",
+      "/images/shops/gallery/mackgorilla-cafe-coffee-more-4.jpg",
+      "/images/shops/gallery/mackgorilla-cafe-coffee-more-5.jpg"
+    ]
+  },
+  {
+    "slug": "caos-coffee",
+    "images": [
+      "/images/shops/gallery/caos-coffee-1.jpg",
+      "/images/shops/gallery/caos-coffee-2.jpg",
+      "/images/shops/gallery/caos-coffee-3.jpg",
+      "/images/shops/gallery/caos-coffee-4.jpg",
+      "/images/shops/gallery/caos-coffee-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-va-bene",
+    "images": [
+      "/images/shops/gallery/cafe-va-bene-1.jpg",
+      "/images/shops/gallery/cafe-va-bene-2.jpg",
+      "/images/shops/gallery/cafe-va-bene-3.jpg",
+      "/images/shops/gallery/cafe-va-bene-4.jpg",
+      "/images/shops/gallery/cafe-va-bene-5.jpg"
+    ]
+  },
+  {
+    "slug": "rosterei-am-platzl",
+    "images": [
+      "/images/shops/gallery/rosterei-am-platzl-1.jpg",
+      "/images/shops/gallery/rosterei-am-platzl-2.jpg",
+      "/images/shops/gallery/rosterei-am-platzl-3.jpg",
+      "/images/shops/gallery/rosterei-am-platzl-4.jpg",
+      "/images/shops/gallery/rosterei-am-platzl-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-mabe",
+    "images": [
+      "/images/shops/gallery/cafe-mabe-1.jpg",
+      "/images/shops/gallery/cafe-mabe-2.jpg",
+      "/images/shops/gallery/cafe-mabe-3.jpg",
+      "/images/shops/gallery/cafe-mabe-4.jpg",
+      "/images/shops/gallery/cafe-mabe-5.jpg"
+    ]
+  },
+  {
+    "slug": "nourish-cafe-soul-concept-coffee-brunch-lunch-cakes",
+    "images": [
+      "/images/shops/gallery/nourish-cafe-soul-concept-coffee-brunch-lunch-cakes-1.jpg",
+      "/images/shops/gallery/nourish-cafe-soul-concept-coffee-brunch-lunch-cakes-2.jpg",
+      "/images/shops/gallery/nourish-cafe-soul-concept-coffee-brunch-lunch-cakes-3.jpg",
+      "/images/shops/gallery/nourish-cafe-soul-concept-coffee-brunch-lunch-cakes-4.jpg",
+      "/images/shops/gallery/nourish-cafe-soul-concept-coffee-brunch-lunch-cakes-5.jpg"
+    ]
+  },
+  {
+    "slug": "leone-caffe",
+    "images": [
+      "/images/shops/gallery/leone-caffe-1.jpg",
+      "/images/shops/gallery/leone-caffe-2.jpg",
+      "/images/shops/gallery/leone-caffe-3.jpg",
+      "/images/shops/gallery/leone-caffe-4.jpg",
+      "/images/shops/gallery/leone-caffe-5.jpg"
+    ]
+  },
+  {
+    "slug": "the-annamites-coffee-roasters",
+    "images": [
+      "/images/shops/gallery/the-annamites-coffee-roasters-1.jpg",
+      "/images/shops/gallery/the-annamites-coffee-roasters-2.jpg",
+      "/images/shops/gallery/the-annamites-coffee-roasters-3.jpg",
+      "/images/shops/gallery/the-annamites-coffee-roasters-4.jpg",
+      "/images/shops/gallery/the-annamites-coffee-roasters-5.jpg"
+    ]
+  },
+  {
+    "slug": "daily-matcha",
+    "images": [
+      "/images/shops/gallery/daily-matcha-1.jpg",
+      "/images/shops/gallery/daily-matcha-2.jpg",
+      "/images/shops/gallery/daily-matcha-3.jpg",
+      "/images/shops/gallery/daily-matcha-4.jpg",
+      "/images/shops/gallery/daily-matcha-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-lehel",
+    "images": [
+      "/images/shops/gallery/cafe-lehel-1.jpg",
+      "/images/shops/gallery/cafe-lehel-2.jpg",
+      "/images/shops/gallery/cafe-lehel-3.jpg",
+      "/images/shops/gallery/cafe-lehel-4.jpg",
+      "/images/shops/gallery/cafe-lehel-5.jpg"
+    ]
+  },
+  {
+    "slug": "concelia-coffee-gmbh",
+    "images": [
+      "/images/shops/gallery/concelia-coffee-gmbh-1.jpg",
+      "/images/shops/gallery/concelia-coffee-gmbh-2.jpg",
+      "/images/shops/gallery/concelia-coffee-gmbh-3.jpg",
+      "/images/shops/gallery/concelia-coffee-gmbh-4.jpg",
+      "/images/shops/gallery/concelia-coffee-gmbh-5.jpg"
+    ]
+  },
+  {
+    "slug": "kyso-cafe",
+    "images": [
+      "/images/shops/gallery/kyso-cafe-1.jpg",
+      "/images/shops/gallery/kyso-cafe-2.jpg",
+      "/images/shops/gallery/kyso-cafe-3.jpg",
+      "/images/shops/gallery/kyso-cafe-4.jpg",
+      "/images/shops/gallery/kyso-cafe-5.jpg"
+    ]
+  },
+  {
+    "slug": "pacande-kaffeerosterei-kg",
+    "images": [
+      "/images/shops/gallery/pacande-kaffeerosterei-kg-1.jpg",
+      "/images/shops/gallery/pacande-kaffeerosterei-kg-2.jpg",
+      "/images/shops/gallery/pacande-kaffeerosterei-kg-3.jpg",
+      "/images/shops/gallery/pacande-kaffeerosterei-kg-4.jpg",
+      "/images/shops/gallery/pacande-kaffeerosterei-kg-5.jpg"
+    ]
+  },
+  {
+    "slug": "gudrun-3-restaurant-cafe-bar",
+    "images": [
+      "/images/shops/gallery/gudrun-3-restaurant-cafe-bar-1.jpg",
+      "/images/shops/gallery/gudrun-3-restaurant-cafe-bar-2.jpg",
+      "/images/shops/gallery/gudrun-3-restaurant-cafe-bar-3.jpg",
+      "/images/shops/gallery/gudrun-3-restaurant-cafe-bar-4.jpg",
+      "/images/shops/gallery/gudrun-3-restaurant-cafe-bar-5.jpg"
+    ]
+  },
+  {
+    "slug": "le-petit-jardin",
+    "images": [
+      "/images/shops/gallery/le-petit-jardin-1.jpg",
+      "/images/shops/gallery/le-petit-jardin-2.jpg",
+      "/images/shops/gallery/le-petit-jardin-3.jpg",
+      "/images/shops/gallery/le-petit-jardin-4.jpg",
+      "/images/shops/gallery/le-petit-jardin-5.jpg"
+    ]
+  },
+  {
+    "slug": "coffee-box",
+    "images": [
+      "/images/shops/gallery/coffee-box-1.jpg",
+      "/images/shops/gallery/coffee-box-2.jpg",
+      "/images/shops/gallery/coffee-box-3.jpg",
+      "/images/shops/gallery/coffee-box-4.jpg",
+      "/images/shops/gallery/coffee-box-5.jpg"
+    ]
+  },
+  {
+    "slug": "nine-fine-roastery-bar",
+    "images": [
+      "/images/shops/gallery/nine-fine-roastery-bar-1.jpg",
+      "/images/shops/gallery/nine-fine-roastery-bar-2.jpg",
+      "/images/shops/gallery/nine-fine-roastery-bar-3.jpg",
+      "/images/shops/gallery/nine-fine-roastery-bar-4.jpg",
+      "/images/shops/gallery/nine-fine-roastery-bar-5.jpg"
+    ]
+  },
+  {
+    "slug": "schneid-kaffee-kaffeerosterei-specialty-coffee",
+    "images": [
+      "/images/shops/gallery/schneid-kaffee-kaffeerosterei-specialty-coffee-1.jpg",
+      "/images/shops/gallery/schneid-kaffee-kaffeerosterei-specialty-coffee-2.jpg",
+      "/images/shops/gallery/schneid-kaffee-kaffeerosterei-specialty-coffee-3.jpg",
+      "/images/shops/gallery/schneid-kaffee-kaffeerosterei-specialty-coffee-4.jpg",
+      "/images/shops/gallery/schneid-kaffee-kaffeerosterei-specialty-coffee-5.jpg"
+    ]
+  },
+  {
+    "slug": "neosociety-munich",
+    "images": [
+      "/images/shops/gallery/neosociety-munich-1.jpg",
+      "/images/shops/gallery/neosociety-munich-2.jpg",
+      "/images/shops/gallery/neosociety-munich-3.jpg",
+      "/images/shops/gallery/neosociety-munich-4.jpg",
+      "/images/shops/gallery/neosociety-munich-5.jpg"
+    ]
+  },
+  {
+    "slug": "up-coffee-cafe",
+    "images": [
+      "/images/shops/gallery/up-coffee-cafe-1.jpg",
+      "/images/shops/gallery/up-coffee-cafe-2.jpg",
+      "/images/shops/gallery/up-coffee-cafe-3.jpg",
+      "/images/shops/gallery/up-coffee-cafe-4.jpg",
+      "/images/shops/gallery/up-coffee-cafe-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-berta",
+    "images": [
+      "/images/shops/gallery/cafe-berta-1.jpg",
+      "/images/shops/gallery/cafe-berta-2.jpg",
+      "/images/shops/gallery/cafe-berta-3.jpg",
+      "/images/shops/gallery/cafe-berta-4.jpg",
+      "/images/shops/gallery/cafe-berta-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-miu",
+    "images": [
+      "/images/shops/gallery/cafe-miu-1.jpg",
+      "/images/shops/gallery/cafe-miu-2.jpg",
+      "/images/shops/gallery/cafe-miu-3.jpg",
+      "/images/shops/gallery/cafe-miu-4.jpg",
+      "/images/shops/gallery/cafe-miu-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-mint-munchen",
+    "images": [
+      "/images/shops/gallery/cafe-mint-munchen-1.jpg",
+      "/images/shops/gallery/cafe-mint-munchen-2.jpg",
+      "/images/shops/gallery/cafe-mint-munchen-3.jpg",
+      "/images/shops/gallery/cafe-mint-munchen-4.jpg",
+      "/images/shops/gallery/cafe-mint-munchen-5.jpg"
+    ]
+  },
+  {
+    "slug": "dinatale-cafe-2",
+    "images": [
+      "/images/shops/gallery/dinatale-cafe-2-1.jpg",
+      "/images/shops/gallery/dinatale-cafe-2-2.jpg",
+      "/images/shops/gallery/dinatale-cafe-2-3.jpg",
+      "/images/shops/gallery/dinatale-cafe-2-4.jpg",
+      "/images/shops/gallery/dinatale-cafe-2-5.jpg"
+    ]
+  },
+  {
+    "slug": "amulet",
+    "images": [
+      "/images/shops/gallery/amulet-1.jpg",
+      "/images/shops/gallery/amulet-2.jpg",
+      "/images/shops/gallery/amulet-3.jpg",
+      "/images/shops/gallery/amulet-4.jpg",
+      "/images/shops/gallery/amulet-5.jpg"
+    ]
+  },
+  {
+    "slug": "monaco-cafe-franzmunchinger-shop",
+    "images": [
+      "/images/shops/gallery/monaco-cafe-franzmunchinger-shop-1.jpg",
+      "/images/shops/gallery/monaco-cafe-franzmunchinger-shop-2.jpg",
+      "/images/shops/gallery/monaco-cafe-franzmunchinger-shop-3.jpg",
+      "/images/shops/gallery/monaco-cafe-franzmunchinger-shop-4.jpg",
+      "/images/shops/gallery/monaco-cafe-franzmunchinger-shop-5.jpg"
+    ]
+  },
+  {
+    "slug": "helma-cafe-tagesbar",
+    "images": [
+      "/images/shops/gallery/helma-cafe-tagesbar-1.jpg",
+      "/images/shops/gallery/helma-cafe-tagesbar-2.jpg",
+      "/images/shops/gallery/helma-cafe-tagesbar-3.jpg",
+      "/images/shops/gallery/helma-cafe-tagesbar-4.jpg",
+      "/images/shops/gallery/helma-cafe-tagesbar-5.jpg"
+    ]
+  },
+  {
+    "slug": "eiscafe-via-veneto",
+    "images": [
+      "/images/shops/gallery/eiscafe-via-veneto-1.jpg",
+      "/images/shops/gallery/eiscafe-via-veneto-2.jpg",
+      "/images/shops/gallery/eiscafe-via-veneto-3.jpg",
+      "/images/shops/gallery/eiscafe-via-veneto-4.jpg",
+      "/images/shops/gallery/eiscafe-via-veneto-5.jpg"
+    ]
+  },
+  {
+    "slug": "boulangerie-saphir-croissanterie-salon-de-the",
+    "images": [
+      "/images/shops/gallery/boulangerie-saphir-croissanterie-salon-de-the-1.jpg",
+      "/images/shops/gallery/boulangerie-saphir-croissanterie-salon-de-the-2.jpg",
+      "/images/shops/gallery/boulangerie-saphir-croissanterie-salon-de-the-3.jpg",
+      "/images/shops/gallery/boulangerie-saphir-croissanterie-salon-de-the-4.jpg",
+      "/images/shops/gallery/boulangerie-saphir-croissanterie-salon-de-the-5.jpg"
+    ]
+  },
+  {
+    "slug": "rabinger-kiosk-cafe",
+    "images": [
+      "/images/shops/gallery/rabinger-kiosk-cafe-1.jpg",
+      "/images/shops/gallery/rabinger-kiosk-cafe-2.jpg",
+      "/images/shops/gallery/rabinger-kiosk-cafe-3.jpg",
+      "/images/shops/gallery/rabinger-kiosk-cafe-4.jpg",
+      "/images/shops/gallery/rabinger-kiosk-cafe-5.jpg"
+    ]
+  },
+  {
+    "slug": "onos-cafe",
+    "images": [
+      "/images/shops/gallery/onos-cafe-1.jpg",
+      "/images/shops/gallery/onos-cafe-2.jpg",
+      "/images/shops/gallery/onos-cafe-3.jpg",
+      "/images/shops/gallery/onos-cafe-4.jpg",
+      "/images/shops/gallery/onos-cafe-5.jpg"
+    ]
+  },
+  {
+    "slug": "bacibaci-cafe-tagesbar",
+    "images": [
+      "/images/shops/gallery/bacibaci-cafe-tagesbar-1.jpg",
+      "/images/shops/gallery/bacibaci-cafe-tagesbar-2.jpg",
+      "/images/shops/gallery/bacibaci-cafe-tagesbar-3.jpg",
+      "/images/shops/gallery/bacibaci-cafe-tagesbar-4.jpg",
+      "/images/shops/gallery/bacibaci-cafe-tagesbar-5.jpg"
+    ]
+  },
+  {
+    "slug": "lottibar",
+    "images": [
+      "/images/shops/gallery/lottibar-1.jpg",
+      "/images/shops/gallery/lottibar-2.jpg",
+      "/images/shops/gallery/lottibar-3.jpg",
+      "/images/shops/gallery/lottibar-4.jpg",
+      "/images/shops/gallery/lottibar-5.jpg"
+    ]
+  },
+  {
+    "slug": "lisboa-nata",
+    "images": [
+      "/images/shops/gallery/lisboa-nata-1.jpg",
+      "/images/shops/gallery/lisboa-nata-2.jpg",
+      "/images/shops/gallery/lisboa-nata-3.jpg",
+      "/images/shops/gallery/lisboa-nata-4.jpg",
+      "/images/shops/gallery/lisboa-nata-5.jpg"
+    ]
+  },
+  {
+    "slug": "3mills-cycling-coffee-gmbh",
+    "images": [
+      "/images/shops/gallery/3mills-cycling-coffee-gmbh-1.jpg",
+      "/images/shops/gallery/3mills-cycling-coffee-gmbh-2.jpg",
+      "/images/shops/gallery/3mills-cycling-coffee-gmbh-3.jpg",
+      "/images/shops/gallery/3mills-cycling-coffee-gmbh-4.jpg",
+      "/images/shops/gallery/3mills-cycling-coffee-gmbh-5.jpg"
+    ]
+  },
+  {
+    "slug": "cupital-n-3",
+    "images": [
+      "/images/shops/gallery/cupital-n-3-1.jpg",
+      "/images/shops/gallery/cupital-n-3-2.jpg",
+      "/images/shops/gallery/cupital-n-3-3.jpg",
+      "/images/shops/gallery/cupital-n-3-4.jpg",
+      "/images/shops/gallery/cupital-n-3-5.jpg"
+    ]
+  },
+  {
+    "slug": "tillu-coffee",
+    "images": [
+      "/images/shops/gallery/tillu-coffee-1.jpg",
+      "/images/shops/gallery/tillu-coffee-2.jpg",
+      "/images/shops/gallery/tillu-coffee-3.jpg",
+      "/images/shops/gallery/tillu-coffee-4.jpg",
+      "/images/shops/gallery/tillu-coffee-5.jpg"
+    ]
+  },
+  {
+    "slug": "cuppa-kaffeebar-munchen",
+    "images": [
+      "/images/shops/gallery/cuppa-kaffeebar-munchen-1.jpg",
+      "/images/shops/gallery/cuppa-kaffeebar-munchen-2.jpg",
+      "/images/shops/gallery/cuppa-kaffeebar-munchen-3.jpg",
+      "/images/shops/gallery/cuppa-kaffeebar-munchen-4.jpg",
+      "/images/shops/gallery/cuppa-kaffeebar-munchen-5.jpg"
+    ]
+  },
+  {
+    "slug": "kai-matcha-club",
+    "images": [
+      "/images/shops/gallery/kai-matcha-club-1.jpg",
+      "/images/shops/gallery/kai-matcha-club-2.jpg",
+      "/images/shops/gallery/kai-matcha-club-3.jpg",
+      "/images/shops/gallery/kai-matcha-club-4.jpg",
+      "/images/shops/gallery/kai-matcha-club-5.jpg"
+    ]
+  },
+  {
+    "slug": "gundel",
+    "images": [
+      "/images/shops/gallery/gundel-1.jpg",
+      "/images/shops/gallery/gundel-2.jpg",
+      "/images/shops/gallery/gundel-3.jpg",
+      "/images/shops/gallery/gundel-4.jpg",
+      "/images/shops/gallery/gundel-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-flower",
+    "images": [
+      "/images/shops/gallery/cafe-flower-1.jpg",
+      "/images/shops/gallery/cafe-flower-2.jpg",
+      "/images/shops/gallery/cafe-flower-3.jpg",
+      "/images/shops/gallery/cafe-flower-4.jpg",
+      "/images/shops/gallery/cafe-flower-5.jpg"
+    ]
+  },
+  {
+    "slug": "orfanos-croissanterie",
+    "images": [
+      "/images/shops/gallery/orfanos-croissanterie-1.jpg",
+      "/images/shops/gallery/orfanos-croissanterie-2.jpg",
+      "/images/shops/gallery/orfanos-croissanterie-3.jpg",
+      "/images/shops/gallery/orfanos-croissanterie-4.jpg",
+      "/images/shops/gallery/orfanos-croissanterie-5.jpg"
+    ]
+  },
+  {
+    "slug": "lecker-munich",
+    "images": [
+      "/images/shops/gallery/lecker-munich-1.jpg",
+      "/images/shops/gallery/lecker-munich-2.jpg",
+      "/images/shops/gallery/lecker-munich-3.jpg",
+      "/images/shops/gallery/lecker-munich-4.jpg",
+      "/images/shops/gallery/lecker-munich-5.jpg"
+    ]
+  },
+  {
+    "slug": "heideck14",
+    "images": [
+      "/images/shops/gallery/heideck14-1.jpg",
+      "/images/shops/gallery/heideck14-2.jpg",
+      "/images/shops/gallery/heideck14-3.jpg",
+      "/images/shops/gallery/heideck14-4.jpg",
+      "/images/shops/gallery/heideck14-5.jpg"
+    ]
+  },
+  {
+    "slug": "cafe-im-hugendubel",
+    "images": [
+      "/images/shops/gallery/cafe-im-hugendubel-1.jpg",
+      "/images/shops/gallery/cafe-im-hugendubel-2.jpg",
+      "/images/shops/gallery/cafe-im-hugendubel-3.jpg",
+      "/images/shops/gallery/cafe-im-hugendubel-4.jpg",
+      "/images/shops/gallery/cafe-im-hugendubel-5.jpg"
+    ]
+  },
+  {
+    "slug": "simba-s-coffee-juicery",
+    "images": [
+      "/images/shops/gallery/simba-s-coffee-juicery-1.jpg",
+      "/images/shops/gallery/simba-s-coffee-juicery-2.jpg",
+      "/images/shops/gallery/simba-s-coffee-juicery-3.jpg",
+      "/images/shops/gallery/simba-s-coffee-juicery-4.jpg",
+      "/images/shops/gallery/simba-s-coffee-juicery-5.jpg"
+    ]
+  },
+  {
+    "slug": "turm-kaffee-gmbh-barista-academy-tagescafe",
+    "images": [
+      "/images/shops/gallery/turm-kaffee-gmbh-barista-academy-tagescafe-1.jpg",
+      "/images/shops/gallery/turm-kaffee-gmbh-barista-academy-tagescafe-2.jpg",
+      "/images/shops/gallery/turm-kaffee-gmbh-barista-academy-tagescafe-3.jpg",
+      "/images/shops/gallery/turm-kaffee-gmbh-barista-academy-tagescafe-4.jpg",
+      "/images/shops/gallery/turm-kaffee-gmbh-barista-academy-tagescafe-5.jpg"
+    ]
+  },
+  {
+    "slug": "ciao-amore",
+    "images": [
+      "/images/shops/gallery/ciao-amore-1.jpg",
+      "/images/shops/gallery/ciao-amore-2.jpg",
+      "/images/shops/gallery/ciao-amore-3.jpg",
+      "/images/shops/gallery/ciao-amore-4.jpg",
+      "/images/shops/gallery/ciao-amore-5.jpg"
+    ]
+  }
+]

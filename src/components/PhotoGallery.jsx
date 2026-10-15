@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import { ShopThumb } from './ShopCard';
 
-export default function PhotoGallery({ shop, className = '' }) {
+export default function PhotoGallery({ shop, className = '', priority = false }) {
   const images = shop.images?.length > 0 ? shop.images : shop.image ? [shop.image] : [];
   const [index, setIndex] = useState(0);
   const [dragging, setDragging] = useState(false);
@@ -73,6 +73,7 @@ export default function PhotoGallery({ shop, className = '' }) {
       <img
         src={images[index]}
         alt={`${shop.name} photo ${index + 1} of ${images.length}`}
+        loading={priority ? 'eager' : 'lazy'}
         className="w-full h-full object-cover select-none pointer-events-none"
         draggable={false}
       />

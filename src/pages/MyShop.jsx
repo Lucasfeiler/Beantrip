@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useShops } from '../context/ShopsContext';
 import { api } from '../lib/api';
+import ShopQRCode from '../components/ShopQRCode';
 
 const inputClass = "w-full px-4 py-2.5 rounded-xl border border-[var(--color-border)] bg-[var(--color-card)] text-sm focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]";
 const dayLabels = { mon: 'Mon', tue: 'Tue', wed: 'Wed', thu: 'Thu', fri: 'Fri', sat: 'Sat', sun: 'Sun' };
@@ -378,6 +379,8 @@ function EditShopForm({ shop, onSaved }) {
         </form>
         {beanError && <p className="text-sm text-red-600 mt-2">{beanError}</p>}
       </div>
+
+      <ShopQRCode slug={shop.slug} />
 
       <form onSubmit={handleSave} className="mt-8 flex flex-col gap-5">
         <label className="flex flex-col gap-1.5">

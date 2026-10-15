@@ -1,0 +1,1895 @@
+[
+  {
+    "slug": "wildmosers-restaurant-cafe-am-marienplatz-munchen",
+    "name": "Wildmosers Restaurant-Cafe am Marienplatz - München",
+    "city": "Munich",
+    "neighborhood": "Altstadt-Lehel",
+    "address": "Marienplatz 22, 80331 Munich-Altstadt-Lehel",
+    "description": "Specialty coffee shop in Altstadt-Lehel, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-00:00",
+      "mon": "09:00-00:00",
+      "tue": "09:00-00:00",
+      "wed": "09:00-00:00",
+      "thu": "09:00-00:00",
+      "fri": "09:00-00:00",
+      "sat": "09:00-00:00"
+    },
+    "website": "https://wildmosers.de/",
+    "image": "/images/shops/wildmosers-restaurant-cafe-am-marienplatz-munchen.jpg",
+    "images": [
+      "/images/shops/wildmosers-restaurant-cafe-am-marienplatz-munchen.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1370042,
+    "lng": 11.5753142
+  },
+  {
+    "slug": "botanista-cafe-club",
+    "name": "Botanista Café Club",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Pestalozzistraße 20, 80469 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-22:00",
+      "mon": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-00:00",
+      "sat": "09:00-00:00"
+    },
+    "website": "http://www.botanista-muc.de/",
+    "image": "/images/shops/botanista-cafe-club.jpg",
+    "images": [
+      "/images/shops/botanista-cafe-club.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.13056479999999,
+    "lng": 11.5671443
+  },
+  {
+    "slug": "cafe-buur",
+    "name": "Café Buur",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Feilitzschstraße 12, 80802 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "http://www.cafebuur.de/",
+    "image": "/images/shops/cafe-buur.jpg",
+    "images": [
+      "/images/shops/cafe-buur.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1611412,
+    "lng": 11.5888834
+  },
+  {
+    "slug": "neuhauser",
+    "name": "Neuhauser",
+    "city": "Munich",
+    "neighborhood": "Neuhausen-Nymphenburg",
+    "address": "Schulstraße 28, 80634 Munich-Neuhausen-Nymphenburg",
+    "description": "Specialty coffee shop in Neuhausen-Nymphenburg, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "11:30-01:00",
+      "mon": "11:30-01:00",
+      "tue": "11:30-01:00",
+      "wed": "11:30-01:00",
+      "thu": "11:30-01:00",
+      "fri": "11:30-01:00",
+      "sat": "11:30-01:00"
+    },
+    "website": "https://neuhauser-neuhausen.de/",
+    "image": "/images/shops/neuhauser.jpg",
+    "images": [
+      "/images/shops/neuhauser.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1501412,
+    "lng": 11.5352221
+  },
+  {
+    "slug": "madam-anna-ekke-glockenbach-brunch-dinner",
+    "name": "Madam Anna Ekke – Glockenbach | Brunch & Dinner",
+    "city": "Munich",
+    "neighborhood": "Ludwigsvorstadt-Isarvorstadt",
+    "address": "Kolosseumstraße 6, 80469 Munich-Ludwigsvorstadt-Isarvorstadt",
+    "description": "Specialty coffee shop in Ludwigsvorstadt-Isarvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-22:00",
+      "sat": "09:00-22:00"
+    },
+    "website": "http://www.madamannaekke.de/",
+    "image": "/images/shops/madam-anna-ekke-glockenbach-brunch-dinner.jpg",
+    "images": [
+      "/images/shops/madam-anna-ekke-glockenbach-brunch-dinner.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1302003,
+    "lng": 11.5716927
+  },
+  {
+    "slug": "fausto-kaffeerosterei-gmbh",
+    "name": "FAUSTO KAFFEERÖSTEREI GMBH",
+    "city": "Munich",
+    "neighborhood": "Untergiesing-Harlaching",
+    "address": "Birkenleiten 43, 81543 Munich-Untergiesing-Harlaching",
+    "description": "Specialty coffee shop in Untergiesing-Harlaching, Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "11:00-19:00",
+      "tue": "11:00-19:00",
+      "wed": "11:00-19:00",
+      "thu": "11:00-19:00",
+      "fri": "11:00-19:00",
+      "sat": "10:00-19:00"
+    },
+    "website": "http://www.fausto-kaffee.de/",
+    "image": "/images/shops/fausto-kaffeerosterei-gmbh.jpg",
+    "images": [
+      "/images/shops/fausto-kaffeerosterei-gmbh.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1057917,
+    "lng": 11.5667789
+  },
+  {
+    "slug": "argana-taste-of-morocco",
+    "name": "Argana | TASTE OF MOROCCO",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Augustenstraße 80, 80333 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "10:00-21:00",
+      "mon": "10:00-21:00",
+      "wed": "10:00-21:00",
+      "thu": "10:00-21:00",
+      "fri": "10:00-21:00",
+      "sat": "10:00-21:00"
+    },
+    "website": "https://argana.de/",
+    "image": "/images/shops/argana-taste-of-morocco.jpg",
+    "images": [
+      "/images/shops/argana-taste-of-morocco.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1505589,
+    "lng": 11.5640645
+  },
+  {
+    "slug": "nebenan-brunch-bar",
+    "name": "Nebenan Brunch & Bar",
+    "city": "Munich",
+    "neighborhood": "Maxvorstadt",
+    "address": "Barer Str. 61, 80799 Munich-Maxvorstadt",
+    "description": "Specialty coffee shop in Maxvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:30-17:00",
+      "tue": "09:30-22:00",
+      "wed": "09:30-22:00",
+      "thu": "09:30-22:00",
+      "fri": "09:30-22:00",
+      "sat": "09:30-22:00"
+    },
+    "website": "https://barer61.de/home/nebenan/",
+    "image": "/images/shops/nebenan-brunch-bar.jpg",
+    "images": [
+      "/images/shops/nebenan-brunch-bar.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1526838,
+    "lng": 11.5741638
+  },
+  {
+    "slug": "cafe-fraulein",
+    "name": "Café Fräulein",
+    "city": "Munich",
+    "neighborhood": "Altstadt-Lehel",
+    "address": "Frauenstraße 11, 80469 Munich-Altstadt-Lehel",
+    "description": "Specialty coffee shop in Altstadt-Lehel, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "10:00-18:00",
+      "mon": "09:30-18:00",
+      "tue": "09:30-18:00",
+      "wed": "09:30-18:00",
+      "thu": "09:30-18:00",
+      "fri": "09:30-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "http://www.cafe-fraeulein.de/",
+    "image": "/images/shops/cafe-fraulein.jpg",
+    "images": [
+      "/images/shops/cafe-fraulein.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1345231,
+    "lng": 11.5780325
+  },
+  {
+    "slug": "cafe-lozzi",
+    "name": "Cafe Lozzi",
+    "city": "Munich",
+    "neighborhood": "Ludwigsvorstadt-Isarvorstadt",
+    "address": "Pestalozzistraße 8, 80469 Munich-Ludwigsvorstadt-Isarvorstadt",
+    "description": "Specialty coffee shop in Ludwigsvorstadt-Isarvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-20:00",
+      "mon": "10:00-23:00",
+      "tue": "10:00-23:00",
+      "wed": "10:00-23:00",
+      "thu": "10:00-23:00",
+      "fri": "10:00-00:30",
+      "sat": "09:00-00:30"
+    },
+    "website": "https://www.cafelozzi.de/",
+    "image": "/images/shops/cafe-lozzi.jpg",
+    "images": [
+      "/images/shops/cafe-lozzi.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.131675,
+    "lng": 11.567262
+  },
+  {
+    "slug": "cafe-la-maison",
+    "name": "Café la Maison",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Weißenburger Str. 6, 81677 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-18:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-18:00"
+    },
+    "website": "http://www.cafe-maison.de/",
+    "image": "/images/shops/cafe-la-maison.jpg",
+    "images": [
+      "/images/shops/cafe-la-maison.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1284941,
+    "lng": 11.5949861
+  },
+  {
+    "slug": "a-small-cafe-bar",
+    "name": "A Small Café & Bar",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Müllerstraße 17, 80469 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:30-16:30",
+      "mon": "09:00-16:00",
+      "tue": "09:00-16:00",
+      "wed": "09:00-16:00",
+      "fri": "09:00-16:30",
+      "sat": "09:30-16:30"
+    },
+    "website": "http://www.asmallcafefornow.com/",
+    "image": "/images/shops/a-small-cafe-bar.jpg",
+    "images": [
+      "/images/shops/a-small-cafe-bar.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1314516,
+    "lng": 11.5720028
+  },
+  {
+    "slug": "roca-junior-artisan-coffee",
+    "name": "roca junior - artisan coffee",
+    "city": "Munich",
+    "neighborhood": "Maxvorstadt",
+    "address": "Kreittmayrstraße 5, 80335 Munich-Maxvorstadt",
+    "description": "Specialty coffee shop in Maxvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "http://rocajunior.de/",
+    "image": "/images/shops/roca-junior-artisan-coffee.jpg",
+    "images": [
+      "/images/shops/roca-junior-artisan-coffee.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1506019,
+    "lng": 11.5564482
+  },
+  {
+    "slug": "cofx-4-speciality-coffee",
+    "name": "COFX 4 Speciality Coffee",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Lohstraße 14, 81543 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:30-17:30",
+      "mon": "09:30-17:30",
+      "tue": "09:30-17:30",
+      "wed": "09:30-17:30",
+      "thu": "10:00-17:30",
+      "fri": "09:30-17:30",
+      "sat": "09:30-17:30"
+    },
+    "website": "https://www.cofx.co.uk/",
+    "image": "/images/shops/cofx-4-speciality-coffee.jpg",
+    "images": [
+      "/images/shops/cofx-4-speciality-coffee.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1163906,
+    "lng": 11.5760616
+  },
+  {
+    "slug": "dinatale-cafe",
+    "name": "Dinatale Cafe",
+    "city": "Munich",
+    "neighborhood": "Maxvorstadt",
+    "address": "Veterinärstraße 4, 80539 Munich-Maxvorstadt",
+    "description": "Specialty coffee shop in Maxvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "https://dinatale-cafe.de/",
+    "image": "/images/shops/dinatale-cafe.jpg",
+    "images": [
+      "/images/shops/dinatale-cafe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.15016079999999,
+    "lng": 11.5830025
+  },
+  {
+    "slug": "om-nom-nom-cafe",
+    "name": "OM NOM NOM CAFÉ",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Volkartstraße 70, 80636 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-16:00",
+      "tue": "09:00-16:00",
+      "wed": "09:00-16:00",
+      "thu": "09:00-16:00",
+      "fri": "09:00-16:00",
+      "sat": "09:00-16:00"
+    },
+    "website": "http://www.om-nom-nom.de/",
+    "image": "/images/shops/om-nom-nom-cafe.jpg",
+    "images": [
+      "/images/shops/om-nom-nom-cafe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1583653,
+    "lng": 11.5415686
+  },
+  {
+    "slug": "caffe-conte-tagesbar",
+    "name": "caffè conte tagesbar",
+    "city": "Munich",
+    "neighborhood": "Schwabing-Freimann",
+    "address": "Ainmillerstraße 10, 80801 Munich-Schwabing-Freimann",
+    "description": "Specialty coffee shop in Schwabing-Freimann, Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "07:45-18:00",
+      "tue": "07:45-18:00",
+      "wed": "07:45-18:00",
+      "thu": "07:45-18:00",
+      "fri": "07:45-18:00",
+      "sat": "10:00-17:00"
+    },
+    "website": "https://pages.resmio.com/caffe-conte/de",
+    "image": "/images/shops/caffe-conte-tagesbar.jpg",
+    "images": [
+      "/images/shops/caffe-conte-tagesbar.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.15879899999999,
+    "lng": 11.5831743
+  },
+  {
+    "slug": "morso",
+    "name": "Morso",
+    "city": "Munich",
+    "neighborhood": "Maxvorstadt",
+    "address": "Nordendstraße 17, 80799 Munich-Maxvorstadt",
+    "description": "Specialty coffee shop in Maxvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "08:00-20:00",
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "08:00-20:00"
+    },
+    "website": null,
+    "image": "/images/shops/morso.jpg",
+    "images": [
+      "/images/shops/morso.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1547304,
+    "lng": 11.5752529
+  },
+  {
+    "slug": "lollo-rosso-caffe-bar",
+    "name": "Lollo Rosso Caffè Bar",
+    "city": "Munich",
+    "neighborhood": "Au-Haidhausen",
+    "address": "Wörthstraße 11, 81667 Munich-Au-Haidhausen",
+    "description": "Specialty coffee shop in Au-Haidhausen, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "10:00-18:00",
+      "mon": "08:00-22:00",
+      "tue": "08:00-22:00",
+      "wed": "08:00-22:00",
+      "thu": "08:00-22:00",
+      "fri": "08:00-22:00",
+      "sat": "10:00-22:00"
+    },
+    "website": "http://cafe.lollo-rosso.com/",
+    "image": "/images/shops/lollo-rosso-caffe-bar.jpg",
+    "images": [
+      "/images/shops/lollo-rosso-caffe-bar.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1314777,
+    "lng": 11.599064
+  },
+  {
+    "slug": "life-is-sweet-munich-cafe-cheesecakes-cakes-ny-cookies",
+    "name": "Life is Sweet Munich Cafe | Cheesecakes | Cakes | NY Cookies",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Pestalozzistraße 17, 80469 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "12:00-19:00",
+      "tue": "14:00-20:00",
+      "wed": "13:00-20:00",
+      "thu": "13:00-20:00",
+      "fri": "13:00-20:00",
+      "sat": "12:00-19:00"
+    },
+    "website": "http://www.lifeissweetmunich.com/",
+    "image": "/images/shops/life-is-sweet-munich-cafe-cheesecakes-cakes-ny-cookies.jpg",
+    "images": [
+      "/images/shops/life-is-sweet-munich-cafe-cheesecakes-cakes-ny-cookies.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1306958,
+    "lng": 11.5675303
+  },
+  {
+    "slug": "cafe-johannis",
+    "name": "Cafe Johannis",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Johannispl. 15, 81667 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "tue": "17:00-03:00",
+      "wed": "17:00-03:00",
+      "thu": "11:00-03:00",
+      "fri": "11:00-04:00",
+      "sat": "17:00-04:00"
+    },
+    "website": null,
+    "image": "/images/shops/cafe-johannis.jpg",
+    "images": [
+      "/images/shops/cafe-johannis.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.133586,
+    "lng": 11.59715
+  },
+  {
+    "slug": "gangundgabe",
+    "name": "gangundgäbe",
+    "city": "Munich",
+    "neighborhood": "Ludwigsvorstadt-Isarvorstadt",
+    "address": "Kapuzinerstraße 12, 80337 Munich-Ludwigsvorstadt-Isarvorstadt",
+    "description": "Specialty coffee shop in Ludwigsvorstadt-Isarvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "12:00-17:00",
+      "tue": "12:00-17:00",
+      "wed": "12:00-17:00",
+      "thu": "12:00-17:00",
+      "fri": "12:00-17:00"
+    },
+    "website": "https://gangundgaebe.de/",
+    "image": "/images/shops/gangundgabe.jpg",
+    "images": [
+      "/images/shops/gangundgabe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1272771,
+    "lng": 11.5570205
+  },
+  {
+    "slug": "mackgorilla-cafe-coffee-more",
+    "name": "MackGorilla Cafe COFFEE & MORE",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Marsstraße 13, 80335 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "07:30-22:30",
+      "mon": "07:30-22:30",
+      "tue": "07:30-22:30",
+      "wed": "07:30-22:30",
+      "thu": "07:30-22:30",
+      "fri": "07:30-23:30",
+      "sat": "07:30-23:30"
+    },
+    "website": "https://www.mackgorilla.com/",
+    "image": "/images/shops/mackgorilla-cafe-coffee-more.jpg",
+    "images": [
+      "/images/shops/mackgorilla-cafe-coffee-more.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1429745,
+    "lng": 11.558629
+  },
+  {
+    "slug": "caos-coffee",
+    "name": "CAOS Coffee",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Christophstraße 3, 80538 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "https://www.instagram.com/caos.coffee",
+    "image": "/images/shops/caos-coffee.jpg",
+    "images": [
+      "/images/shops/caos-coffee.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.14130249999999,
+    "lng": 11.5838505
+  },
+  {
+    "slug": "cafe-va-bene",
+    "name": "Cafe Va Bene",
+    "city": "Munich",
+    "neighborhood": "Au-Haidhausen",
+    "address": "Schleibingerstraße 11, 81669 Munich-Au-Haidhausen",
+    "description": "Specialty coffee shop in Au-Haidhausen, Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "https://cafevabene.de/",
+    "image": "/images/shops/cafe-va-bene.jpg",
+    "images": [
+      "/images/shops/cafe-va-bene.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.12839390000001,
+    "lng": 11.5914547
+  },
+  {
+    "slug": "rosterei-am-platzl",
+    "name": "Rösterei am Platzl",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Orlandostraße 6, 80331 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "10:00-16:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-18:00"
+    },
+    "website": null,
+    "image": "/images/shops/rosterei-am-platzl.jpg",
+    "images": [
+      "/images/shops/rosterei-am-platzl.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.13736979999999,
+    "lng": 11.5795413
+  },
+  {
+    "slug": "cafe-mabe",
+    "name": "Cafe MaBe",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Schellingstraße 143, 80798 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "10:00-15:00",
+      "mon": "08:00-16:00",
+      "tue": "08:00-16:00",
+      "wed": "08:00-16:00",
+      "thu": "08:00-16:00",
+      "fri": "08:00-16:00",
+      "sat": "09:00-15:00"
+    },
+    "website": "https://instagram.com/cafe.mabe?igshid=OGQ5ZDc2ODk2ZA==",
+    "image": "/images/shops/cafe-mabe.jpg",
+    "images": [
+      "/images/shops/cafe-mabe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1542284,
+    "lng": 11.5613906
+  },
+  {
+    "slug": "nourish-cafe-soul-concept-coffee-brunch-lunch-cakes",
+    "name": "nourish café | soul concept - coffee, brunch, lunch & cakes",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Donnersbergerstraße 8, 80634 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:30-13:30",
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "http://nourishcafe.de/",
+    "image": "/images/shops/nourish-cafe-soul-concept-coffee-brunch-lunch-cakes.jpg",
+    "images": [
+      "/images/shops/nourish-cafe-soul-concept-coffee-brunch-lunch-cakes.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1512831,
+    "lng": 11.5335509
+  },
+  {
+    "slug": "leone-caffe",
+    "name": "Leone Caffè",
+    "city": "Munich",
+    "neighborhood": "Maxvorstadt",
+    "address": "Augustenstraße 25, 80333 Munich-Maxvorstadt",
+    "description": "Specialty coffee shop in Maxvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "11:00-17:00"
+    },
+    "website": "https://www.caffeleone.de/",
+    "image": "/images/shops/leone-caffe.jpg",
+    "images": [
+      "/images/shops/leone-caffe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1471825,
+    "lng": 11.5614556
+  },
+  {
+    "slug": "the-annamites-coffee-roasters",
+    "name": "The Annamites Coffee Roasters",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Fallstraße 26, 81369 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-18:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "http://theannamites.de/",
+    "image": "/images/shops/the-annamites-coffee-roasters.jpg",
+    "images": [
+      "/images/shops/the-annamites-coffee-roasters.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1085795,
+    "lng": 11.5386632
+  },
+  {
+    "slug": "daily-matcha",
+    "name": "Daily Matcha",
+    "city": "Munich",
+    "neighborhood": "Maxvorstadt",
+    "address": "Augustenstraße 5, 80333 Munich-Maxvorstadt",
+    "description": "Specialty coffee shop in Maxvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "10:00-17:00",
+      "mon": "10:00-17:00",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00"
+    },
+    "website": null,
+    "image": "/images/shops/daily-matcha.jpg",
+    "images": [
+      "/images/shops/daily-matcha.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1454922,
+    "lng": 11.5603835
+  },
+  {
+    "slug": "cafe-lehel",
+    "name": "Café Lehel",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Liebigstraße 10A, 80538 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-18:00",
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "https://instagram.com/cafe.lehel?igsh=d2FkcnkxdWNzOHE4&utm_source=qr",
+    "image": "/images/shops/cafe-lehel.jpg",
+    "images": [
+      "/images/shops/cafe-lehel.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1410815,
+    "lng": 11.5886944
+  },
+  {
+    "slug": "concelia-coffee-gmbh",
+    "name": "Concelia Coffee GmbH",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Leonrodstraße 47, 80636 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "08:00-14:00",
+      "mon": "06:00-14:00",
+      "tue": "06:00-14:00",
+      "wed": "06:00-14:00",
+      "thu": "06:00-14:00",
+      "fri": "06:00-14:00",
+      "sat": "06:00-14:00"
+    },
+    "website": "https://coffee.concelia.de/",
+    "image": "/images/shops/concelia-coffee-gmbh.jpg",
+    "images": [
+      "/images/shops/concelia-coffee-gmbh.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1557922,
+    "lng": 11.5401619
+  },
+  {
+    "slug": "kyso-cafe",
+    "name": "Kyso Café",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Tegernseer Landstraße 90, 81539 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "10:00-16:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "http://kyso.cafe/",
+    "image": "/images/shops/kyso-cafe.jpg",
+    "images": [
+      "/images/shops/kyso-cafe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.11450560000001,
+    "lng": 11.5788703
+  },
+  {
+    "slug": "pacande-kaffeerosterei-kg",
+    "name": "Pacandé Kaffeerösterei KG",
+    "city": "Munich",
+    "neighborhood": "Sendling",
+    "address": "Implerstraße 65, 81371 Munich-Sendling",
+    "description": "Specialty coffee shop in Sendling, Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "14:00-18:00",
+      "tue": "14:00-18:00",
+      "wed": "14:00-18:00",
+      "thu": "14:00-18:00",
+      "fri": "14:00-18:00",
+      "sat": "14:00-16:00"
+    },
+    "website": "https://www.pacande.com/",
+    "image": "/images/shops/pacande-kaffeerosterei-kg.jpg",
+    "images": [
+      "/images/shops/pacande-kaffeerosterei-kg.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1171091,
+    "lng": 11.5485322
+  },
+  {
+    "slug": "gudrun-3-restaurant-cafe-bar",
+    "name": "Gudrun 3 // Restaurant Café Bar",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Gudrunstraße 3, 80634 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-16:00",
+      "wed": "16:00-00:00",
+      "thu": "16:00-00:00",
+      "fri": "13:00-00:00",
+      "sat": "09:00-00:00"
+    },
+    "website": "https://www.gudrun3.de/",
+    "image": "/images/shops/gudrun-3-restaurant-cafe-bar.jpg",
+    "images": [
+      "/images/shops/gudrun-3-restaurant-cafe-bar.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1529683,
+    "lng": 11.5304904
+  },
+  {
+    "slug": "le-petit-jardin",
+    "name": "Le Petit Jardin",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Gaisbergstraße 6, 81675 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "08:30-16:00",
+      "sat": "08:30-16:00"
+    },
+    "website": "https://instagram.com/le_petit_jardin_munich",
+    "image": "/images/shops/le-petit-jardin.jpg",
+    "images": [
+      "/images/shops/le-petit-jardin.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1349597,
+    "lng": 11.60867
+  },
+  {
+    "slug": "coffee-box",
+    "name": "Coffee Box",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Steinstraße 9, 81667 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "tue": "08:30-17:00",
+      "wed": "08:30-17:00",
+      "thu": "08:30-17:00",
+      "fri": "08:30-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": null,
+    "image": "/images/shops/coffee-box.jpg",
+    "images": [
+      "/images/shops/coffee-box.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1337412,
+    "lng": 11.5964978
+  },
+  {
+    "slug": "nine-fine-roastery-bar",
+    "name": "Nine Fine Roastery & Bar",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Hirschgartenallee 24, 80639 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "https://bar.ninefine.de/",
+    "image": "/images/shops/nine-fine-roastery-bar.jpg",
+    "images": [
+      "/images/shops/nine-fine-roastery-bar.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1525699,
+    "lng": 11.5086252
+  },
+  {
+    "slug": "schneid-kaffee-kaffeerosterei-specialty-coffee",
+    "name": "Schneid-Kaffee Kaffeerösterei Specialty Coffee",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Feldmochinger Str. 378, 80995 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "10:00-17:00",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-14:00"
+    },
+    "website": "http://www.schneid-kaffee.de/",
+    "image": "/images/shops/schneid-kaffee-kaffeerosterei-specialty-coffee.jpg",
+    "images": [
+      "/images/shops/schneid-kaffee-kaffeerosterei-specialty-coffee.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.2124652,
+    "lng": 11.529315
+  },
+  {
+    "slug": "neosociety-munich",
+    "name": "NEOSOCIETY MUNICH",
+    "city": "Munich",
+    "neighborhood": "Schwabing-West",
+    "address": "Herzogstraße 77, 80796 Munich-Schwabing-West",
+    "description": "Specialty coffee shop in Schwabing-West, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "11:00-17:00",
+      "mon": "09:00-18:00",
+      "tue": "09:00-18:00",
+      "wed": "09:00-18:00",
+      "thu": "09:00-18:00",
+      "fri": "09:00-18:00",
+      "sat": "10:00-18:00"
+    },
+    "website": "http://www.neosocietymunich.de/",
+    "image": "/images/shops/neosociety-munich.jpg",
+    "images": [
+      "/images/shops/neosociety-munich.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1623582,
+    "lng": 11.5737371
+  },
+  {
+    "slug": "up-coffee-cafe",
+    "name": "UP Coffee (Café)",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Adalbertstraße 12, 80799 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "https://instagram.com/upcoffee.munich",
+    "image": "/images/shops/up-coffee-cafe.jpg",
+    "images": [
+      "/images/shops/up-coffee-cafe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1517761,
+    "lng": 11.5804673
+  },
+  {
+    "slug": "cafe-berta",
+    "name": "Café Berta",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Haimhauserstraße 11, 80802 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-20:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "10:00-22:00",
+      "fri": "09:00-22:00",
+      "sat": "09:00-22:00"
+    },
+    "website": null,
+    "image": "/images/shops/cafe-berta.jpg",
+    "images": [
+      "/images/shops/cafe-berta.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1624932,
+    "lng": 11.589345
+  },
+  {
+    "slug": "cafe-miu",
+    "name": "Cafe Miu",
+    "city": "Munich",
+    "neighborhood": "Au-Haidhausen",
+    "address": "Sedanstraße 39, 81667 Munich-Au-Haidhausen",
+    "description": "Specialty coffee shop in Au-Haidhausen, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-16:00",
+      "mon": "08:30-16:00",
+      "tue": "08:30-16:00",
+      "wed": "08:30-16:00",
+      "thu": "08:30-16:00",
+      "fri": "08:30-16:00",
+      "sat": "09:00-16:00"
+    },
+    "website": "https://lorenzschlegel.wixsite.com/my-site",
+    "image": "/images/shops/cafe-miu.jpg",
+    "images": [
+      "/images/shops/cafe-miu.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1288524,
+    "lng": 11.6001592
+  },
+  {
+    "slug": "cafe-mint-munchen",
+    "name": "Café Mint - München",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Fürstenrieder Str. 22, 80687 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "07:00-17:00",
+      "tue": "07:00-17:00",
+      "wed": "07:00-17:00",
+      "thu": "07:00-17:00",
+      "fri": "08:00-17:00"
+    },
+    "website": null,
+    "image": "/images/shops/cafe-mint-munchen.jpg",
+    "images": [
+      "/images/shops/cafe-mint-munchen.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.14022010000001,
+    "lng": 11.502765
+  },
+  {
+    "slug": "dinatale-cafe-2",
+    "name": "Dinatale Cafe",
+    "city": "Munich",
+    "neighborhood": "Schwabing-West",
+    "address": "Elisabethstraße 2, 80796 Munich-Schwabing-West",
+    "description": "Specialty coffee shop in Schwabing-West, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "08:00-17:00",
+      "mon": "07:00-17:00",
+      "tue": "07:00-17:00",
+      "wed": "07:00-17:00",
+      "thu": "07:00-17:00",
+      "fri": "07:00-17:00",
+      "sat": "08:00-17:00"
+    },
+    "website": "http://www.dinatale-cafe.de/",
+    "image": "/images/shops/dinatale-cafe-2.jpg",
+    "images": [
+      "/images/shops/dinatale-cafe-2.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1579161,
+    "lng": 11.5738743
+  },
+  {
+    "slug": "amulet",
+    "name": "amulet",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Fraunhoferstraße 7, 80469 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "10:00-18:00"
+    },
+    "website": "http://amuletcafe.com/",
+    "image": "/images/shops/amulet.jpg",
+    "images": [
+      "/images/shops/amulet.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1309349,
+    "lng": 11.5723737
+  },
+  {
+    "slug": "monaco-cafe-franzmunchinger-shop",
+    "name": "MONACO Café & franzmünchinger SHOP",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "bei Ludwig Beck, 80802, Marienplatz 11/4.OG, 80331 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "10:00-20:00",
+      "tue": "10:00-20:00",
+      "wed": "10:00-20:00",
+      "thu": "10:00-20:00",
+      "fri": "10:00-20:00",
+      "sat": "10:00-20:00"
+    },
+    "website": "http://www.franzmuenchinger.de/",
+    "image": "/images/shops/monaco-cafe-franzmunchinger-shop.jpg",
+    "images": [
+      "/images/shops/monaco-cafe-franzmunchinger-shop.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1371636,
+    "lng": 11.5765214
+  },
+  {
+    "slug": "helma-cafe-tagesbar",
+    "name": "Helma - Café & Tagesbar",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Preysingstraße 18, 81667 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "10:00-19:00",
+      "mon": "10:00-19:00",
+      "thu": "10:00-19:00",
+      "fri": "10:00-19:00",
+      "sat": "10:00-19:00"
+    },
+    "website": "https://www.helma-cafe.com/",
+    "image": "/images/shops/helma-cafe-tagesbar.jpg",
+    "images": [
+      "/images/shops/helma-cafe-tagesbar.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1321244,
+    "lng": 11.5941255
+  },
+  {
+    "slug": "eiscafe-via-veneto",
+    "name": "Eiscafé Via Veneto",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "a Ecke Schmied Kochel, Implerstraße 12, 81371 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "10:00-21:00",
+      "mon": "10:00-21:00",
+      "tue": "10:00-21:00",
+      "wed": "10:00-21:00",
+      "thu": "10:00-21:00",
+      "fri": "10:00-21:00",
+      "sat": "10:00-21:00"
+    },
+    "website": null,
+    "image": "/images/shops/eiscafe-via-veneto.jpg",
+    "images": [
+      "/images/shops/eiscafe-via-veneto.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.12235099999999,
+    "lng": 11.5482787
+  },
+  {
+    "slug": "boulangerie-saphir-croissanterie-salon-de-the",
+    "name": "Boulangerie Saphir - Croissanterie - Salon de thé",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Grillparzerstraße 49, 81675 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "08:00-12:00",
+      "tue": "08:00-12:00",
+      "wed": "08:00-12:00",
+      "thu": "08:00-12:00",
+      "fri": "08:00-12:00",
+      "sat": "08:00-12:00"
+    },
+    "website": "https://www.instagram.com/boulangeriesaphir",
+    "image": "/images/shops/boulangerie-saphir-croissanterie-salon-de-the.jpg",
+    "images": [
+      "/images/shops/boulangerie-saphir-croissanterie-salon-de-the.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1381422,
+    "lng": 11.6075425
+  },
+  {
+    "slug": "rabinger-kiosk-cafe",
+    "name": "Rabinger Kiosk-Café",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Arnulfstraße 51a, 80636 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "07:00-01:00",
+      "mon": "07:00-01:00",
+      "tue": "07:00-01:00",
+      "wed": "07:00-01:00",
+      "thu": "07:00-01:00",
+      "fri": "07:00-02:00",
+      "sat": "07:00-02:00"
+    },
+    "website": null,
+    "image": "/images/shops/rabinger-kiosk-cafe.jpg",
+    "images": [
+      "/images/shops/rabinger-kiosk-cafe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1449185,
+    "lng": 11.5416008
+  },
+  {
+    "slug": "onos-cafe",
+    "name": "ONOS Café",
+    "city": "Munich",
+    "neighborhood": "Ludwigsvorstadt-Isarvorstadt",
+    "address": "Augsburgerstraße 2, 80337 Munich-Ludwigsvorstadt-Isarvorstadt",
+    "description": "Specialty coffee shop in Ludwigsvorstadt-Isarvorstadt, Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "http://www.muconos.com/",
+    "image": "/images/shops/onos-cafe.jpg",
+    "images": [
+      "/images/shops/onos-cafe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.131526,
+    "lng": 11.5663313
+  },
+  {
+    "slug": "bacibaci-cafe-tagesbar",
+    "name": "bacibaci Café & Tagesbar",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Georgenstraße 103, 80798 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-18:30",
+      "tue": "09:00-18:30",
+      "wed": "09:00-18:30",
+      "thu": "09:00-18:30",
+      "fri": "09:00-20:30",
+      "sat": "09:00-20:30"
+    },
+    "website": "https://www.bacibaci-muc.de/",
+    "image": "/images/shops/bacibaci-cafe-tagesbar.jpg",
+    "images": [
+      "/images/shops/bacibaci-cafe-tagesbar.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1567884,
+    "lng": 11.564668
+  },
+  {
+    "slug": "lottibar",
+    "name": "LottiBar",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Pariser Str. 40, 81667 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "14:00-20:00",
+      "mon": "12:00-22:00",
+      "tue": "12:00-22:00",
+      "wed": "12:00-22:00",
+      "thu": "12:00-22:00",
+      "fri": "12:00-23:00",
+      "sat": "12:00-23:00"
+    },
+    "website": "http://www.lottibar.de/",
+    "image": "/images/shops/lottibar.jpg",
+    "images": [
+      "/images/shops/lottibar.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1286119,
+    "lng": 11.6006519
+  },
+  {
+    "slug": "lisboa-nata",
+    "name": "LISBOA & NATA",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Hohenzollernstraße 15, 80801 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "tue": "10:00-18:30",
+      "wed": "10:00-18:30",
+      "thu": "10:00-18:30",
+      "fri": "10:00-18:30",
+      "sat": "10:00-18:30"
+    },
+    "website": "https://www.instagram.com/lisboaenata?igsh=MTRxMzR2ZW4ybGx2Nw==",
+    "image": "/images/shops/lisboa-nata.jpg",
+    "images": [
+      "/images/shops/lisboa-nata.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.15976149999999,
+    "lng": 11.5821882
+  },
+  {
+    "slug": "3mills-cycling-coffee-gmbh",
+    "name": "3Mills Cycling & Coffee GmbH",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Dreimühlenstraße 40, 80469 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "tue": "10:00-18:00",
+      "wed": "10:00-18:00",
+      "thu": "10:00-18:00",
+      "fri": "10:00-18:00",
+      "sat": "10:00-16:00"
+    },
+    "website": "http://www.3mills.cc/",
+    "image": "/images/shops/3mills-cycling-coffee-gmbh.jpg",
+    "images": [
+      "/images/shops/3mills-cycling-coffee-gmbh.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1200304,
+    "lng": 11.5584675
+  },
+  {
+    "slug": "cupital-n-3",
+    "name": "Cupital N°3",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Ismaninger Str. 3, 81675 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00"
+    },
+    "website": "https://www.cupitalno3.de/",
+    "image": "/images/shops/cupital-n-3.jpg",
+    "images": [
+      "/images/shops/cupital-n-3.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1362152,
+    "lng": 11.5978271
+  },
+  {
+    "slug": "tillu-coffee",
+    "name": "Tillu-Coffee",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Augustenstraße 106, 80798 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-18:00",
+      "tue": "09:00-19:00",
+      "wed": "09:00-19:00",
+      "thu": "09:00-19:00",
+      "fri": "09:00-19:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "https://tillu-coffee.de/",
+    "image": "/images/shops/tillu-coffee.jpg",
+    "images": [
+      "/images/shops/tillu-coffee.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1534522,
+    "lng": 11.5659503
+  },
+  {
+    "slug": "cuppa-kaffeebar-munchen",
+    "name": "cuppa Kaffeebar München",
+    "city": "Munich",
+    "neighborhood": "Schwabing-Freimann",
+    "address": "Clemensstraße 15, 80803 Munich-Schwabing-Freimann",
+    "description": "Specialty coffee shop in Schwabing-Freimann, Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-17:00",
+      "wed": "09:00-16:00",
+      "thu": "09:00-16:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": null,
+    "image": "/images/shops/cuppa-kaffeebar-munchen.jpg",
+    "images": [
+      "/images/shops/cuppa-kaffeebar-munchen.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.16348439999999,
+    "lng": 11.583333
+  },
+  {
+    "slug": "kai-matcha-club",
+    "name": "Kai Matcha Club",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Schlörstraße 4, 80634 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-22:00",
+      "tue": "09:00-22:00",
+      "wed": "09:00-22:00",
+      "thu": "09:00-22:00",
+      "fri": "09:00-22:00",
+      "sat": "09:00-22:00"
+    },
+    "website": "https://www.kaimatchaclub.com/",
+    "image": "/images/shops/kai-matcha-club.jpg",
+    "images": [
+      "/images/shops/kai-matcha-club.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1502795,
+    "lng": 11.5360925
+  },
+  {
+    "slug": "gundel",
+    "name": "Gundel",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Gundelindenstraße 11, 80805 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "wed": "08:30-17:30",
+      "thu": "08:30-17:30",
+      "fri": "08:30-17:30",
+      "sat": "09:30-16:30"
+    },
+    "website": null,
+    "image": "/images/shops/gundel.jpg",
+    "images": [
+      "/images/shops/gundel.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.16829329999999,
+    "lng": 11.5958996
+  },
+  {
+    "slug": "cafe-flower",
+    "name": "Café Flower",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Dachauer Str. 114, 80636 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "tue": "10:30-17:30",
+      "wed": "10:30-17:30",
+      "thu": "10:30-17:30"
+    },
+    "website": "http://www.cafe-flower.de/",
+    "image": "/images/shops/cafe-flower.jpg",
+    "images": [
+      "/images/shops/cafe-flower.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1591187,
+    "lng": 11.5481666
+  },
+  {
+    "slug": "orfanos-croissanterie",
+    "name": "Orfanōs Croissanterie",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Mainzer Str, Karl-Theodor-Straße 1 Ecke, 80803 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "08:00-16:00",
+      "tue": "07:00-15:00",
+      "wed": "07:00-15:00",
+      "thu": "07:00-15:00",
+      "fri": "07:00-15:00",
+      "sat": "08:00-16:00"
+    },
+    "website": "https://www.instagram.com/orfanoscroissanterie?igsh=NGU1Y29zOHJseHc%3D&utm_source=qr",
+    "image": "/images/shops/orfanos-croissanterie.jpg",
+    "images": [
+      "/images/shops/orfanos-croissanterie.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1664588,
+    "lng": 11.5810046
+  },
+  {
+    "slug": "lecker-munich",
+    "name": "lecker.munich",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Dachauer Str. 27, 80335 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "12:00-17:00",
+      "thu": "14:00-17:00",
+      "fri": "14:00-17:00",
+      "sat": "12:00-17:00"
+    },
+    "website": null,
+    "image": "/images/shops/lecker-munich.jpg",
+    "images": [
+      "/images/shops/lecker-munich.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1446939,
+    "lng": 11.5594487
+  },
+  {
+    "slug": "heideck14",
+    "name": "Heideck14",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Heideckstraße 14, 80637 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-18:00",
+      "mon": "08:00-17:00",
+      "sat": "09:00-18:00"
+    },
+    "website": null,
+    "image": "/images/shops/heideck14.jpg",
+    "images": [
+      "/images/shops/heideck14.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1614735,
+    "lng": 11.5402254
+  },
+  {
+    "slug": "cafe-im-hugendubel",
+    "name": "Cafe im Hugendubel",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Karlsplatz 11, 80335 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "10:00-18:00",
+      "tue": "10:00-18:00",
+      "wed": "10:00-18:00",
+      "thu": "10:00-18:00",
+      "fri": "10:00-18:00",
+      "sat": "10:00-18:00"
+    },
+    "website": "http://www.hugendubel.de/cafe",
+    "image": "/images/shops/cafe-im-hugendubel.jpg",
+    "images": [
+      "/images/shops/cafe-im-hugendubel.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.13871,
+    "lng": 11.566105
+  },
+  {
+    "slug": "simba-s-coffee-juicery",
+    "name": "Simba's Coffee & Juicery",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Giselastraße 8, 80802 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "09:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "https://www.simbasspecialtycoffee.de/",
+    "image": "/images/shops/simba-s-coffee-juicery.jpg",
+    "images": [
+      "/images/shops/simba-s-coffee-juicery.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1549157,
+    "lng": 11.5854355
+  },
+  {
+    "slug": "turm-kaffee-gmbh-barista-academy-tagescafe",
+    "name": "Turm Kaffee GmbH, Barista Academy & Tagescafé",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Unterer Anger 20, 80331 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-16:00"
+    },
+    "website": "https://turmkaffee.de/",
+    "image": "/images/shops/turm-kaffee-gmbh-barista-academy-tagescafe.jpg",
+    "images": [
+      "/images/shops/turm-kaffee-gmbh-barista-academy-tagescafe.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1343517,
+    "lng": 11.5714571
+  },
+  {
+    "slug": "ciao-amore",
+    "name": "Ciao Amore",
+    "city": "Munich",
+    "neighborhood": null,
+    "address": "Schleißheimer Str. 96, 80797 Munich",
+    "description": "Specialty coffee shop in Munich.",
+    "tags": [],
+    "hours": {
+      "sun": "07:30-18:00",
+      "mon": "07:30-18:00",
+      "tue": "07:30-18:00",
+      "wed": "07:30-18:00",
+      "thu": "07:30-18:00",
+      "fri": "07:30-18:00",
+      "sat": "07:30-18:00"
+    },
+    "website": "https://ciaoamore.net/",
+    "image": "/images/shops/ciao-amore.jpg",
+    "images": [
+      "/images/shops/ciao-amore.jpg"
+    ],
+    "placeholder": false,
+    "rating": 0,
+    "reviewCount": 0,
+    "lat": 48.1555341,
+    "lng": 11.5618771
+  }
+]
