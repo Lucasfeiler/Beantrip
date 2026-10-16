@@ -38,9 +38,14 @@ export default function Home() {
   // many cities exist -- "See all cities" is the permanent escape hatch, so
   // this never needs revisiting as more cities get added.
   const FEATURED_CITY_LIMIT = 5;
-  const featuredCities = [...cities]
-    .sort((a, b) => cityCount(b) - cityCount(a))
-    .slice(0, FEATURED_CITY_LIMIT);
+  const PINNED_CITIES = ['Amsterdam'].filter((c) => cities.includes(c));
+  const featuredCities = [
+    ...[...cities]
+      .filter((c) => !PINNED_CITIES.includes(c))
+      .sort((a, b) => cityCount(b) - cityCount(a))
+      .slice(0, FEATURED_CITY_LIMIT - PINNED_CITIES.length),
+    ...PINNED_CITIES,
+  ];
 
   if (loading || (user?.accountType === 'business' && user.onboardingSeen)) {
     return <div className="max-w-6xl mx-auto px-5 sm:px-8 py-20 text-center text-[var(--color-muted-fg)]">{t('home.loading')}</div>;

@@ -1,0 +1,342 @@
+[
+  {
+    "slug": "sango-specialty-coffee",
+    "name": "Sango Specialty Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Stromarkt 15, 1012 MZ Amsterdam, Netherlands",
+    "lat": 52.3785368,
+    "lng": 4.8945098,
+    "hours": {
+      "sun": "09:00-16:00",
+      "mon": "08:30-16:00",
+      "tue": "08:30-16:00",
+      "wed": "08:30-16:00",
+      "thu": "08:30-16:00",
+      "fri": "08:30-16:00",
+      "sat": "08:30-16:00"
+    },
+    "website": "https://www.sangoamsterdam.com/",
+    "image": "/images/shops/sango-specialty-coffee.jpg",
+    "images": [
+      "/images/shops/gallery/sango-specialty-coffee-1.jpg",
+      "/images/shops/gallery/sango-specialty-coffee-2.jpg",
+      "/images/shops/gallery/sango-specialty-coffee-3.jpg",
+      "/images/shops/gallery/sango-specialty-coffee-4.jpg",
+      "/images/shops/gallery/sango-specialty-coffee-5.jpg"
+    ]
+  },
+  {
+    "slug": "monks-coffee-roasters",
+    "name": "Monks Coffee Roasters",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Westhavenweg 63D, 1042 AL Amsterdam, Netherlands",
+    "lat": 52.4090929,
+    "lng": 4.8275371,
+    "hours": {
+      "mon": "09:00-14:30",
+      "tue": "09:00-14:30",
+      "wed": "09:00-14:30",
+      "sun": null,
+      "thu": null,
+      "fri": null,
+      "sat": null
+    },
+    "website": "http://www.monkscoffee.nl/",
+    "image": "/images/shops/monks-coffee-roasters.jpg",
+    "images": [
+      "/images/shops/gallery/monks-coffee-roasters-1.jpg",
+      "/images/shops/gallery/monks-coffee-roasters-2.jpg",
+      "/images/shops/gallery/monks-coffee-roasters-3.jpg",
+      "/images/shops/gallery/monks-coffee-roasters-4.jpg",
+      "/images/shops/gallery/monks-coffee-roasters-5.jpg"
+    ]
+  },
+  {
+    "slug": "screaming-beans",
+    "name": "Screaming Beans",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Runstraat 6, 1016 GK Amsterdam, Netherlands",
+    "lat": 52.36896059999999,
+    "lng": 4.883902,
+    "hours": {
+      "sun": "09:00-18:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "http://www.screamingbeans.nl/",
+    "image": "/images/shops/screaming-beans.jpg",
+    "images": [
+      "/images/shops/gallery/screaming-beans-1.jpg",
+      "/images/shops/gallery/screaming-beans-2.jpg",
+      "/images/shops/gallery/screaming-beans-3.jpg",
+      "/images/shops/gallery/screaming-beans-4.jpg",
+      "/images/shops/gallery/screaming-beans-5.jpg"
+    ]
+  },
+  {
+    "slug": "toki",
+    "name": "Toki",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "bar",
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": "Chill coffee shop with an industrial feel serving specialty coffee, baked goods & brunch offerings.",
+    "address": "Binnen Dommersstraat 15, 1013 HK Amsterdam, Netherlands",
+    "lat": 52.3829109,
+    "lng": 4.885517500000001,
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "http://www.toki-times.com/",
+    "image": "/images/shops/toki.jpg",
+    "images": [
+      "/images/shops/gallery/toki-1.jpg",
+      "/images/shops/gallery/toki-2.jpg",
+      "/images/shops/gallery/toki-3.jpg",
+      "/images/shops/gallery/toki-4.jpg",
+      "/images/shops/gallery/toki-5.jpg"
+    ]
+  },
+  {
+    "slug": "caffenation",
+    "name": "Caffènation",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Warmondstraat 120, 1058 KZ Amsterdam, Netherlands",
+    "lat": 52.354718,
+    "lng": 4.849318999999999,
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "https://gujicoffee.nl/nl/warmondstraat/",
+    "image": "/images/shops/caffenation.jpg",
+    "images": [
+      "/images/shops/gallery/caffenation-1.jpg",
+      "/images/shops/gallery/caffenation-2.jpg",
+      "/images/shops/gallery/caffenation-3.jpg",
+      "/images/shops/gallery/caffenation-4.jpg",
+      "/images/shops/gallery/caffenation-5.jpg"
+    ]
+  },
+  {
+    "slug": "alpha-coffee",
+    "name": "Alpha Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Amstel 47, 1011 PW Amsterdam, Netherlands",
+    "lat": 52.3662631,
+    "lng": 4.9018763,
+    "hours": {
+      "sun": "09:30-17:00",
+      "mon": "08:00-16:00",
+      "tue": "08:00-16:00",
+      "wed": "08:00-16:00",
+      "thu": "08:00-16:00",
+      "fri": "09:00-16:00",
+      "sat": "09:30-17:00"
+    },
+    "website": null,
+    "image": "/images/shops/alpha-coffee.jpg",
+    "images": [
+      "/images/shops/gallery/alpha-coffee-1.jpg",
+      "/images/shops/gallery/alpha-coffee-2.jpg",
+      "/images/shops/gallery/alpha-coffee-3.jpg",
+      "/images/shops/gallery/alpha-coffee-4.jpg",
+      "/images/shops/gallery/alpha-coffee-5.jpg"
+    ]
+  },
+  {
+    "slug": "haku-specialty-coffee",
+    "name": "Haku Specialty Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "bar",
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Rozengracht 69, 1016 LT Amsterdam, Netherlands",
+    "lat": 52.373288,
+    "lng": 4.880800499999999,
+    "hours": {
+      "sun": "09:00-18:00",
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "http://www.hakucoffee.nl/",
+    "image": "/images/shops/haku-specialty-coffee.jpg",
+    "images": [
+      "/images/shops/gallery/haku-specialty-coffee-1.jpg",
+      "/images/shops/gallery/haku-specialty-coffee-2.jpg",
+      "/images/shops/gallery/haku-specialty-coffee-3.jpg",
+      "/images/shops/gallery/haku-specialty-coffee-4.jpg",
+      "/images/shops/gallery/haku-specialty-coffee-5.jpg"
+    ]
+  },
+  {
+    "slug": "bocca-coffee",
+    "name": "Bocca Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Kerkstraat 96H, 1017 GP Amsterdam, Netherlands",
+    "lat": 52.3643905,
+    "lng": 4.8868164,
+    "hours": {
+      "sun": "09:00-18:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "http://www.bocca.nl/",
+    "image": "/images/shops/bocca-coffee.jpg",
+    "images": [
+      "/images/shops/gallery/bocca-coffee-1.jpg",
+      "/images/shops/gallery/bocca-coffee-2.jpg",
+      "/images/shops/gallery/bocca-coffee-3.jpg",
+      "/images/shops/gallery/bocca-coffee-4.jpg",
+      "/images/shops/gallery/bocca-coffee-5.jpg"
+    ]
+  },
+  {
+    "slug": "scandinavian-embassy",
+    "name": "Scandinavian Embassy",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "bakery",
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": "Scandinavian-style breakfast, lunch & specialty coffee served in a minimal, rustic space.",
+    "address": "Sarphatipark 34, 1072 PB Amsterdam, Netherlands",
+    "lat": 52.3534561,
+    "lng": 4.8942191,
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "http://shop.scandinavianembassy.nl/",
+    "image": "/images/shops/scandinavian-embassy.jpg",
+    "images": [
+      "/images/shops/gallery/scandinavian-embassy-1.jpg",
+      "/images/shops/gallery/scandinavian-embassy-2.jpg",
+      "/images/shops/gallery/scandinavian-embassy-3.jpg",
+      "/images/shops/gallery/scandinavian-embassy-4.jpg",
+      "/images/shops/gallery/scandinavian-embassy-5.jpg"
+    ]
+  },
+  {
+    "slug": "lot-sixty-one",
+    "name": "Lot Sixty One",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": "House-roasted coffee & baked goods served in a cool, relaxed space with rustic woods & subway tiles.",
+    "address": "Kinkerstraat 112, 1053 ED Amsterdam, Netherlands",
+    "lat": 52.3668272,
+    "lng": 4.870314,
+    "hours": {
+      "sun": "09:00-18:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-18:00"
+    },
+    "website": "http://lot61.com/",
+    "image": "/images/shops/lot-sixty-one.jpg",
+    "images": [
+      "/images/shops/gallery/lot-sixty-one-1.jpg",
+      "/images/shops/gallery/lot-sixty-one-2.jpg",
+      "/images/shops/gallery/lot-sixty-one-3.jpg",
+      "/images/shops/gallery/lot-sixty-one-4.jpg",
+      "/images/shops/gallery/lot-sixty-one-5.jpg"
+    ]
+  }
+]
