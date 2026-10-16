@@ -6,12 +6,10 @@ import { dirname, join } from 'node:path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const prisma = new PrismaClient();
 
-// Google lists this one as permanently closed.
-const REMOVE = ['suessi-vienna'];
-
-// Left untouched on purpose: Google types it as a bar/restaurant and its own
-// site calls it a bistro, so it needs an editorial decision before it goes live.
-const SKIP = ['salzi-vienna'];
+// suessi-vienna: Google lists it as permanently closed.
+// salzi-vienna: a bar/bistro, not a coffee shop -- Beantrip doesn't list bars or restaurants.
+const REMOVE = ['suessi-vienna', 'salzi-vienna'];
+const SKIP = [];
 
 const COUNTRY_SUFFIX = /, (Austria|United Kingdom)$/;
 
@@ -43,7 +41,7 @@ async function main() {
   await apply('vienna-details.json');
   await apply('london-details.json');
   const removed = await prisma.shop.deleteMany({ where: { slug: { in: REMOVE } } });
-  console.log(`Removed ${removed.count} permanently closed shop(s).`);
+  console.log(`Removed ${removed.count} shop(s) (closed or not a coffee shop).`);
 }
 
 main()
