@@ -21,11 +21,22 @@ if (!API_KEY) {
 fs.mkdirSync(GALLERY_DIR, { recursive: true });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+async function retry(fn) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (attempt >= 4) throw err;
+      await sleep(1500 * attempt);
+    }
+  }
+}
+
 async function gget(endpoint, params) {
   const url = new URL(`https://maps.googleapis.com/maps/api/place/${endpoint}/json`);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   url.searchParams.set('key', API_KEY);
-  return (await fetch(url)).json();
+  return retry(async () => (await fetch(url)).json());
 }
 
 function buildHours(periods) {
@@ -47,20 +58,22 @@ async function download(photoRef, dest) {
   url.searchParams.set('maxwidth', '1000');
   url.searchParams.set('photo_reference', photoRef);
   url.searchParams.set('key', API_KEY);
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`photo ${res.status}`);
-  fs.writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
+  await retry(async () => {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`photo ${res.status}`);
+    fs.writeFileSync(dest, Buffer.from(await res.arrayBuffer()));
+  });
 }
 
 async function main() {
   const { shops } = await fetch(`${API_URL}/api/shops`).then((r) => r.json());
-  const targets = shops.filter((s) => s.city === CITY && s.placeholder);
-  console.log(`${targets.length} placeholder shops in ${CITY}\n`);
+  const targets = shops.filter((s) => s.city === CITY && (s.placeholder || !s.image));
+  console.log(`${targets.length} shops in ${CITY} missing details or photos\n`);
 
   const results = [];
   for (const shop of targets) {
     console.log(`== ${shop.name} (${shop.slug}) -- ${shop.address}`);
-
+    try {
     const found = await gget('findplacefromtext', {
       input: `${shop.name}, ${shop.address}`,
       inputtype: 'textquery',
@@ -116,6 +129,9 @@ async function main() {
       images: gallery,
     });
     await sleep(200);
+    } catch (err) {
+      console.log(`   FAILED: ${err.message}\n`);
+    }
   }
 
   fs.writeFileSync(OUT_FILE, JSON.stringify(results, null, 2));

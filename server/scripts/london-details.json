@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "alex-coffee",
+    "name": "Alex Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "1 Hanson St, London W1W 6TA, UK",
+    "lat": 51.5194257,
+    "lng": -0.1402818,
+    "hours": {
+      "mon": "08:30-16:30",
+      "tue": "08:30-16:30",
+      "wed": "08:30-16:30",
+      "thu": "08:30-16:30",
+      "fri": "08:30-16:30",
+      "sun": null,
+      "sat": null
+    },
+    "website": "https://alexcoffee.co.uk/",
+    "image": "/images/shops/alex-coffee.jpg",
+    "images": [
+      "/images/shops/gallery/alex-coffee-1.jpg",
+      "/images/shops/gallery/alex-coffee-2.jpg",
+      "/images/shops/gallery/alex-coffee-3.jpg",
+      "/images/shops/gallery/alex-coffee-4.jpg",
+      "/images/shops/gallery/alex-coffee-5.jpg"
+    ]
+  }
+]

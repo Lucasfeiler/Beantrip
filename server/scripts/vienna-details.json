@@ -1,0 +1,1558 @@
+[
+  {
+    "slug": "don-joaco-coffeefarm-coffeebike-coffeeshop-coffee-roasters-vienna",
+    "name": "Don Joaco | Coffeefarm | Coffeebike | Coffeeshop | Coffee Roasters",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "bakery",
+      "cafe",
+      "establishment",
+      "food",
+      "meal_takeaway",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Schwarzhorngasse 14, 1050 Wien, Austria",
+    "lat": 48.1871491,
+    "lng": 16.3529198,
+    "hours": {
+      "tue": "08:00-16:00",
+      "wed": "08:00-16:00",
+      "thu": "08:00-16:00",
+      "fri": "08:00-16:00",
+      "sat": "09:00-17:00",
+      "sun": null,
+      "mon": null
+    },
+    "website": "https://cafedonjoaco.com/",
+    "image": "/images/shops/don-joaco-coffeefarm-coffeebike-coffeeshop-coffee-roasters-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/don-joaco-coffeefarm-coffeebike-coffeeshop-coffee-roasters-vienna-1.jpg",
+      "/images/shops/gallery/don-joaco-coffeefarm-coffeebike-coffeeshop-coffee-roasters-vienna-2.jpg",
+      "/images/shops/gallery/don-joaco-coffeefarm-coffeebike-coffeeshop-coffee-roasters-vienna-3.jpg",
+      "/images/shops/gallery/don-joaco-coffeefarm-coffeebike-coffeeshop-coffee-roasters-vienna-4.jpg",
+      "/images/shops/gallery/don-joaco-coffeefarm-coffeebike-coffeeshop-coffee-roasters-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "salzi-vienna",
+    "name": "SALZI",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "bar",
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Hollandstraße 10, 1020 Wien, Austria",
+    "lat": 48.2155166,
+    "lng": 16.3768295,
+    "hours": {
+      "sun": "09:00-16:00",
+      "mon": "09:00-20:00",
+      "tue": "09:00-20:00",
+      "wed": "09:00-20:00",
+      "thu": "09:00-23:00",
+      "fri": "09:00-23:00",
+      "sat": "09:00-23:00"
+    },
+    "website": "https://www.salzibistro.at/",
+    "image": "/images/shops/salzi-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/salzi-vienna-1.jpg",
+      "/images/shops/gallery/salzi-vienna-2.jpg",
+      "/images/shops/gallery/salzi-vienna-3.jpg",
+      "/images/shops/gallery/salzi-vienna-4.jpg",
+      "/images/shops/gallery/salzi-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "sssmund-kaffee-shop-vienna",
+    "name": "Süssmund Kaffee Shop",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Rauhensteingasse 12, 1010 Wien, Austria",
+    "lat": 48.2059647,
+    "lng": 16.3722901,
+    "hours": {
+      "mon": "09:00-18:30",
+      "tue": "09:00-18:30",
+      "wed": "09:00-18:30",
+      "thu": "09:00-18:30",
+      "fri": "09:00-18:30",
+      "sat": "09:00-18:00",
+      "sun": null
+    },
+    "website": "https://suessmund-kaffee.com/",
+    "image": "/images/shops/sssmund-kaffee-shop-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/sssmund-kaffee-shop-vienna-1.jpg",
+      "/images/shops/gallery/sssmund-kaffee-shop-vienna-2.jpg",
+      "/images/shops/gallery/sssmund-kaffee-shop-vienna-3.jpg",
+      "/images/shops/gallery/sssmund-kaffee-shop-vienna-4.jpg",
+      "/images/shops/gallery/sssmund-kaffee-shop-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "the-good-coffee-society-vienna",
+    "name": "The Good Coffee Society",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Stumpergasse 64, 1060 Wien, Austria",
+    "lat": 48.1961349,
+    "lng": 16.3422226,
+    "hours": {
+      "sun": "10:00-17:00",
+      "mon": "08:00-17:30",
+      "tue": "08:00-17:30",
+      "wed": "08:00-17:30",
+      "thu": "08:00-17:30",
+      "fri": "08:00-17:30",
+      "sat": "09:00-18:00"
+    },
+    "website": "https://thegoodcoffeesociety.com/",
+    "image": "/images/shops/the-good-coffee-society-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/the-good-coffee-society-vienna-1.jpg",
+      "/images/shops/gallery/the-good-coffee-society-vienna-2.jpg",
+      "/images/shops/gallery/the-good-coffee-society-vienna-3.jpg",
+      "/images/shops/gallery/the-good-coffee-society-vienna-4.jpg",
+      "/images/shops/gallery/the-good-coffee-society-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "vogel-kaffee-vienna",
+    "name": "Vogel Kaffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Bruno-Marek-Allee 19, 1020 Wien, Austria",
+    "lat": 48.2252576,
+    "lng": 16.3931658,
+    "hours": {
+      "sun": "08:30-17:30",
+      "mon": "07:30-17:30",
+      "tue": "07:30-17:30",
+      "wed": "07:30-17:30",
+      "thu": "07:30-17:30",
+      "fri": "07:30-17:30",
+      "sat": "08:30-17:30"
+    },
+    "website": "http://www.vogelkaffee.at/",
+    "image": "/images/shops/vogel-kaffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/vogel-kaffee-vienna-1.jpg",
+      "/images/shops/gallery/vogel-kaffee-vienna-2.jpg",
+      "/images/shops/gallery/vogel-kaffee-vienna-3.jpg",
+      "/images/shops/gallery/vogel-kaffee-vienna-4.jpg",
+      "/images/shops/gallery/vogel-kaffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "goldener-papagei-vienna",
+    "name": "Goldener Papagei",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Praterstraße 17, 1020 Wien, Austria",
+    "lat": 48.2136456,
+    "lng": 16.3819785,
+    "hours": {
+      "sun": "08:00-19:00",
+      "mon": "08:00-19:00",
+      "tue": "08:00-19:00",
+      "wed": "08:00-19:00",
+      "thu": "08:00-19:00",
+      "fri": "08:00-19:00",
+      "sat": "08:00-19:00"
+    },
+    "website": "https://goldenerpapagei.at/",
+    "image": "/images/shops/goldener-papagei-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/goldener-papagei-vienna-1.jpg",
+      "/images/shops/gallery/goldener-papagei-vienna-2.jpg",
+      "/images/shops/gallery/goldener-papagei-vienna-3.jpg",
+      "/images/shops/gallery/goldener-papagei-vienna-4.jpg",
+      "/images/shops/gallery/goldener-papagei-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "caf-de-fleur-vienna",
+    "name": "Café de Fleur",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Europaplatz 1/3, 1150 Wien, Austria",
+    "lat": 48.1967966,
+    "lng": 16.337663,
+    "hours": {
+      "sun": "07:00-19:00",
+      "mon": "07:00-20:00",
+      "tue": "07:00-20:00",
+      "wed": "07:00-20:00",
+      "thu": "07:00-20:00",
+      "fri": "07:00-20:00",
+      "sat": "07:00-19:00"
+    },
+    "website": "http://cafedefleur.at/",
+    "image": "/images/shops/caf-de-fleur-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/caf-de-fleur-vienna-1.jpg",
+      "/images/shops/gallery/caf-de-fleur-vienna-2.jpg",
+      "/images/shops/gallery/caf-de-fleur-vienna-3.jpg",
+      "/images/shops/gallery/caf-de-fleur-vienna-4.jpg",
+      "/images/shops/gallery/caf-de-fleur-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "coffee-club-1130-vienna",
+    "name": "Coffee Club 1130",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": "All-day breakfast & cafe lunches, plus signature coffee blends, in an established, casual chain.",
+    "address": "Hietzinger Hauptstraße 74, 1130 Wien, Austria",
+    "lat": 48.1874468,
+    "lng": 16.2843311,
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "https://www.instagram.com/coffeeclub1130?igsh=MTNqcjJoYW1oazAzeQ==",
+    "image": "/images/shops/coffee-club-1130-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/coffee-club-1130-vienna-1.jpg",
+      "/images/shops/gallery/coffee-club-1130-vienna-2.jpg",
+      "/images/shops/gallery/coffee-club-1130-vienna-3.jpg",
+      "/images/shops/gallery/coffee-club-1130-vienna-4.jpg",
+      "/images/shops/gallery/coffee-club-1130-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "kleines-wiener-caf-toluka-specialty-coffee-roasters-vienna",
+    "name": "Kleines Wiener Café // Toluka Specialty Coffee Roasters",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Kochgasse 18, 1080 Wien, Austria",
+    "lat": 48.2130857,
+    "lng": 16.3496295,
+    "hours": {
+      "tue": "08:00-21:00",
+      "wed": "08:00-21:00",
+      "thu": "08:00-21:00",
+      "fri": "08:00-21:00",
+      "sat": "10:00-21:00",
+      "sun": null,
+      "mon": null
+    },
+    "website": "http://www.kleineswiener.cafe/",
+    "image": "/images/shops/kleines-wiener-caf-toluka-specialty-coffee-roasters-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/kleines-wiener-caf-toluka-specialty-coffee-roasters-vienna-1.jpg",
+      "/images/shops/gallery/kleines-wiener-caf-toluka-specialty-coffee-roasters-vienna-2.jpg",
+      "/images/shops/gallery/kleines-wiener-caf-toluka-specialty-coffee-roasters-vienna-3.jpg",
+      "/images/shops/gallery/kleines-wiener-caf-toluka-specialty-coffee-roasters-vienna-4.jpg",
+      "/images/shops/gallery/kleines-wiener-caf-toluka-specialty-coffee-roasters-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "caf-exchange-vienna",
+    "name": "Café Exchange",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "restaurant"
+    ],
+    "editorialSummary": null,
+    "address": "Georg-Coch-Platz 2, 1010 Wien, Austria",
+    "lat": 48.21001510000001,
+    "lng": 16.3807289,
+    "hours": {
+      "mon": "09:00-17:30",
+      "tue": "09:00-17:30",
+      "wed": "09:00-17:30",
+      "thu": "09:00-17:30",
+      "fri": "09:00-17:30",
+      "sat": "10:30-17:00",
+      "sun": null
+    },
+    "website": "http://www.aggys.at/",
+    "image": "/images/shops/caf-exchange-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/caf-exchange-vienna-1.jpg",
+      "/images/shops/gallery/caf-exchange-vienna-2.jpg",
+      "/images/shops/gallery/caf-exchange-vienna-3.jpg",
+      "/images/shops/gallery/caf-exchange-vienna-4.jpg",
+      "/images/shops/gallery/caf-exchange-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "wildkaffee-wien-vienna",
+    "name": "Wildkaffee Wien",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Pilgramgasse 6, 1050 Wien, Austria",
+    "lat": 48.191854,
+    "lng": 16.3575101,
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-17:00",
+      "sun": null
+    },
+    "website": "https://wild-kaffee.at/",
+    "image": "/images/shops/wildkaffee-wien-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/wildkaffee-wien-vienna-1.jpg",
+      "/images/shops/gallery/wildkaffee-wien-vienna-2.jpg",
+      "/images/shops/gallery/wildkaffee-wien-vienna-3.jpg",
+      "/images/shops/gallery/wildkaffee-wien-vienna-4.jpg",
+      "/images/shops/gallery/wildkaffee-wien-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "gota-coffee-experts-vienna",
+    "name": "GOTA Coffee experts",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Mariahilfer Str. 192, 1150 Wien, Austria",
+    "lat": 48.1914215,
+    "lng": 16.3269093,
+    "hours": {
+      "sun": "08:00-18:00",
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": "08:00-18:00"
+    },
+    "website": "https://www.gota.coffee/",
+    "image": "/images/shops/gota-coffee-experts-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/gota-coffee-experts-vienna-1.jpg",
+      "/images/shops/gallery/gota-coffee-experts-vienna-2.jpg",
+      "/images/shops/gallery/gota-coffee-experts-vienna-3.jpg",
+      "/images/shops/gallery/gota-coffee-experts-vienna-4.jpg",
+      "/images/shops/gallery/gota-coffee-experts-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "hafi-books-coffee-vienna",
+    "name": "Hafi Books + Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "book_store",
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Rechte Wienzeile 45/1, 1050 Wien, Austria",
+    "lat": 48.1963235,
+    "lng": 16.3582632,
+    "hours": {
+      "tue": "11:30-19:00",
+      "wed": "11:30-19:00",
+      "thu": "11:30-19:00",
+      "fri": "11:30-19:00",
+      "sat": "10:30-18:30",
+      "sun": null,
+      "mon": null
+    },
+    "website": "http://hafibooks.com/",
+    "image": "/images/shops/hafi-books-coffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/hafi-books-coffee-vienna-1.jpg",
+      "/images/shops/gallery/hafi-books-coffee-vienna-2.jpg",
+      "/images/shops/gallery/hafi-books-coffee-vienna-3.jpg",
+      "/images/shops/gallery/hafi-books-coffee-vienna-4.jpg",
+      "/images/shops/gallery/hafi-books-coffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "kafana-coffee-roastery-vienna",
+    "name": "Kafana | Coffee & Roastery",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Heinestraße 35, 1020 Wien, Austria",
+    "lat": 48.2195219,
+    "lng": 16.3880816,
+    "hours": {
+      "mon": "08:00-16:00",
+      "tue": "08:00-16:00",
+      "wed": "08:00-16:00",
+      "thu": "08:00-16:00",
+      "fri": "08:00-16:00",
+      "sat": "09:00-14:00",
+      "sun": null
+    },
+    "website": "http://www.kafana-coffee.at/",
+    "image": "/images/shops/kafana-coffee-roastery-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/kafana-coffee-roastery-vienna-1.jpg",
+      "/images/shops/gallery/kafana-coffee-roastery-vienna-2.jpg",
+      "/images/shops/gallery/kafana-coffee-roastery-vienna-3.jpg",
+      "/images/shops/gallery/kafana-coffee-roastery-vienna-4.jpg",
+      "/images/shops/gallery/kafana-coffee-roastery-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "brass-monkey-vienna",
+    "name": "Brass Monkey",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Gumpendorfer Str. 71/5, 1060 Wien, Austria",
+    "lat": 48.19489530000001,
+    "lng": 16.3508287,
+    "hours": {
+      "sun": "09:00-18:00",
+      "mon": "08:00-18:30",
+      "tue": "08:00-18:30",
+      "wed": "08:00-18:30",
+      "thu": "08:00-18:30",
+      "fri": "08:00-18:30",
+      "sat": "09:00-18:00"
+    },
+    "website": "http://brassmonkeyvienna.com/",
+    "image": "/images/shops/brass-monkey-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/brass-monkey-vienna-1.jpg",
+      "/images/shops/gallery/brass-monkey-vienna-2.jpg",
+      "/images/shops/gallery/brass-monkey-vienna-3.jpg",
+      "/images/shops/gallery/brass-monkey-vienna-4.jpg",
+      "/images/shops/gallery/brass-monkey-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "balthasar-kaffee-bar-wien",
+    "name": "Balthasar Kaffee Bar",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Praterstraße 38, 1020 Wien, Austria",
+    "lat": 48.214837,
+    "lng": 16.385304,
+    "hours": {
+      "mon": "07:30-19:00",
+      "tue": "07:30-19:00",
+      "wed": "07:30-19:00",
+      "thu": "07:30-19:00",
+      "fri": "07:30-19:00",
+      "sat": "09:00-17:00",
+      "sun": null
+    },
+    "website": "http://www.balthasar.at/",
+    "image": "/images/shops/balthasar-kaffee-bar-wien.jpg",
+    "images": [
+      "/images/shops/gallery/balthasar-kaffee-bar-wien-1.jpg",
+      "/images/shops/gallery/balthasar-kaffee-bar-wien-2.jpg",
+      "/images/shops/gallery/balthasar-kaffee-bar-wien-3.jpg",
+      "/images/shops/gallery/balthasar-kaffee-bar-wien-4.jpg",
+      "/images/shops/gallery/balthasar-kaffee-bar-wien-5.jpg"
+    ]
+  },
+  {
+    "slug": "jonas-reindl-coffee-wien",
+    "name": "Jonas Reindl Coffee Roasters",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Währinger Str. 2-4, 1090 Wien, Austria",
+    "lat": 48.2149013,
+    "lng": 16.3618455,
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "08:00-17:30",
+      "tue": "08:00-17:30",
+      "wed": "08:00-17:30",
+      "thu": "08:00-17:30",
+      "fri": "08:00-17:30",
+      "sat": "09:00-17:00"
+    },
+    "website": "http://www.jonasreindl.at/",
+    "image": "/images/shops/jonas-reindl-coffee-wien.jpg",
+    "images": [
+      "/images/shops/gallery/jonas-reindl-coffee-wien-1.jpg",
+      "/images/shops/gallery/jonas-reindl-coffee-wien-2.jpg",
+      "/images/shops/gallery/jonas-reindl-coffee-wien-3.jpg",
+      "/images/shops/gallery/jonas-reindl-coffee-wien-4.jpg",
+      "/images/shops/gallery/jonas-reindl-coffee-wien-5.jpg"
+    ]
+  },
+  {
+    "slug": "ototo-store-specialty-coffee-vienna",
+    "name": "OTOTO Store & Specialty Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "convenience_store",
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Corner with Westbahn Strasse, Zieglergasse 38, 1070 Wien, Austria",
+    "lat": 48.2017563,
+    "lng": 16.345195,
+    "hours": {
+      "mon": "08:00-19:00",
+      "tue": "08:00-19:00",
+      "wed": "08:00-19:00",
+      "thu": "08:00-19:00",
+      "fri": "08:00-19:00",
+      "sat": "09:00-18:00",
+      "sun": null
+    },
+    "website": "https://www.instagram.com/ototo_vienna/",
+    "image": "/images/shops/ototo-store-specialty-coffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/ototo-store-specialty-coffee-vienna-1.jpg",
+      "/images/shops/gallery/ototo-store-specialty-coffee-vienna-2.jpg",
+      "/images/shops/gallery/ototo-store-specialty-coffee-vienna-3.jpg",
+      "/images/shops/gallery/ototo-store-specialty-coffee-vienna-4.jpg",
+      "/images/shops/gallery/ototo-store-specialty-coffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "atelier-7-the-caf-vienna",
+    "name": "Atelier 7 The Café",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Riemergasse 7, 1010 Wien, Austria",
+    "lat": 48.2073615,
+    "lng": 16.3771747,
+    "hours": {
+      "sun": "10:00-18:00",
+      "mon": "10:00-18:00",
+      "tue": "10:00-18:00",
+      "wed": "10:00-18:00",
+      "thu": "10:00-18:00",
+      "fri": "10:00-18:00",
+      "sat": "10:00-18:00"
+    },
+    "website": "https://www.mandarinoriental.com/en/vienna/inner-city/dine/atelier-7-the-cafe?src=loc.local-listings.movie.ggl",
+    "image": "/images/shops/atelier-7-the-caf-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/atelier-7-the-caf-vienna-1.jpg",
+      "/images/shops/gallery/atelier-7-the-caf-vienna-2.jpg",
+      "/images/shops/gallery/atelier-7-the-caf-vienna-3.jpg",
+      "/images/shops/gallery/atelier-7-the-caf-vienna-4.jpg",
+      "/images/shops/gallery/atelier-7-the-caf-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "kafftscherl---specialty-coffee-vienna",
+    "name": "Kaffätscherl - Specialty Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Siebensterngasse 25, 1070 Wien, Austria",
+    "lat": 48.2021598,
+    "lng": 16.3528396,
+    "hours": {
+      "sun": "09:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-17:00",
+      "mon": null,
+      "tue": null
+    },
+    "website": "https://kaffätscherl.at/",
+    "image": "/images/shops/kafftscherl---specialty-coffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/kafftscherl---specialty-coffee-vienna-1.jpg",
+      "/images/shops/gallery/kafftscherl---specialty-coffee-vienna-2.jpg",
+      "/images/shops/gallery/kafftscherl---specialty-coffee-vienna-3.jpg",
+      "/images/shops/gallery/kafftscherl---specialty-coffee-vienna-4.jpg",
+      "/images/shops/gallery/kafftscherl---specialty-coffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "kaffeefabrik-vienna",
+    "name": "Kaffeefabrik",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Favoritenstraße 4, 1040 Wien, Austria",
+    "lat": 48.1958817,
+    "lng": 16.3684099,
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "10:00-17:00",
+      "sun": null
+    },
+    "website": "https://www.kaffeefabrik.at/",
+    "image": "/images/shops/kaffeefabrik-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/kaffeefabrik-vienna-1.jpg",
+      "/images/shops/gallery/kaffeefabrik-vienna-2.jpg",
+      "/images/shops/gallery/kaffeefabrik-vienna-3.jpg",
+      "/images/shops/gallery/kaffeefabrik-vienna-4.jpg",
+      "/images/shops/gallery/kaffeefabrik-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "kaffemik-vienna",
+    "name": "kaffemik",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Zollergasse 5, 1070 Wien, Austria",
+    "lat": 48.1991539,
+    "lng": 16.3509685,
+    "hours": {
+      "sun": "11:00-17:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "10:00-18:00"
+    },
+    "website": "https://kaffemik.at/",
+    "image": "/images/shops/kaffemik-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/kaffemik-vienna-1.jpg",
+      "/images/shops/gallery/kaffemik-vienna-2.jpg",
+      "/images/shops/gallery/kaffemik-vienna-3.jpg",
+      "/images/shops/gallery/kaffemik-vienna-4.jpg",
+      "/images/shops/gallery/kaffemik-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "loka-yoga-cafe-vienna",
+    "name": "Loka Yoga & Cafe",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Spengergasse 42, 1050 Wien, Austria",
+    "lat": 48.1885483,
+    "lng": 16.3539383,
+    "hours": {
+      "sun": "10:00-18:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "10:00-18:00"
+    },
+    "website": "https://lokayogacafe.com/",
+    "image": "/images/shops/loka-yoga-cafe-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/loka-yoga-cafe-vienna-1.jpg",
+      "/images/shops/gallery/loka-yoga-cafe-vienna-2.jpg",
+      "/images/shops/gallery/loka-yoga-cafe-vienna-3.jpg",
+      "/images/shops/gallery/loka-yoga-cafe-vienna-4.jpg",
+      "/images/shops/gallery/loka-yoga-cafe-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "small-batch-vienna",
+    "name": "small batch",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Haidgasse 10, 1020 Wien, Austria",
+    "lat": 48.21783869999999,
+    "lng": 16.3795041,
+    "hours": {
+      "sun": "09:00-15:00",
+      "sat": "09:00-15:00",
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": null
+    },
+    "website": "https://www.instagram.com/smallbatch.cafe?igsh=c3Fhd3VrbnllMWp1",
+    "image": "/images/shops/small-batch-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/small-batch-vienna-1.jpg",
+      "/images/shops/gallery/small-batch-vienna-2.jpg",
+      "/images/shops/gallery/small-batch-vienna-3.jpg",
+      "/images/shops/gallery/small-batch-vienna-4.jpg",
+      "/images/shops/gallery/small-batch-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "beandependent-vienna",
+    "name": "BEANDEPENDENT",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Lessinggasse 19, 1020 Wien, Austria",
+    "lat": 48.2236244,
+    "lng": 16.3848605,
+    "hours": {
+      "mon": "07:30-16:00",
+      "tue": "07:30-16:00",
+      "wed": "07:30-16:00",
+      "thu": "07:30-16:00",
+      "fri": "07:30-16:00",
+      "sun": null,
+      "sat": null
+    },
+    "website": "http://beandependent.com/",
+    "image": "/images/shops/beandependent-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/beandependent-vienna-1.jpg",
+      "/images/shops/gallery/beandependent-vienna-2.jpg",
+      "/images/shops/gallery/beandependent-vienna-3.jpg",
+      "/images/shops/gallery/beandependent-vienna-4.jpg",
+      "/images/shops/gallery/beandependent-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "poc-cafe-vienna",
+    "name": "People on Caffeine",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Schlösselgasse 21, 1080 Wien, Austria",
+    "lat": 48.21458089999999,
+    "lng": 16.3529368,
+    "hours": {
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "10:00-16:00",
+      "sun": null
+    },
+    "website": "https://facebook.com/poccafe/",
+    "image": "/images/shops/poc-cafe-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/poc-cafe-vienna-1.jpg",
+      "/images/shops/gallery/poc-cafe-vienna-2.jpg",
+      "/images/shops/gallery/poc-cafe-vienna-3.jpg",
+      "/images/shops/gallery/poc-cafe-vienna-4.jpg",
+      "/images/shops/gallery/poc-cafe-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "suessi-vienna",
+    "name": "Süssi Salon de Thé",
+    "businessStatus": "CLOSED_PERMANENTLY",
+    "types": [
+      "establishment",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Operngasse 30, 1040 Wien, Austria",
+    "lat": 48.1979258,
+    "lng": 16.3658533,
+    "hours": null,
+    "website": null,
+    "image": "/images/shops/suessi-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/suessi-vienna-1.jpg",
+      "/images/shops/gallery/suessi-vienna-2.jpg",
+      "/images/shops/gallery/suessi-vienna-3.jpg",
+      "/images/shops/gallery/suessi-vienna-4.jpg",
+      "/images/shops/gallery/suessi-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "coffeepirates-vienna",
+    "name": "CoffeePirates",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Spitalgasse 17, 1090 Wien, Austria",
+    "lat": 48.2173845,
+    "lng": 16.3511695,
+    "hours": {
+      "sun": "09:00-17:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "http://www.coffeepirates.at/",
+    "image": "/images/shops/coffeepirates-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/coffeepirates-vienna-1.jpg",
+      "/images/shops/gallery/coffeepirates-vienna-2.jpg",
+      "/images/shops/gallery/coffeepirates-vienna-3.jpg",
+      "/images/shops/gallery/coffeepirates-vienna-4.jpg",
+      "/images/shops/gallery/coffeepirates-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "fenster-cafe-vienna",
+    "name": "Fenster Café",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": "Modest window-serve doling out creative drinks, cocktails & specialty coffee with roasted beans.",
+    "address": "Griechengasse 10, 1010 Wien, Austria",
+    "lat": 48.2109524,
+    "lng": 16.3770858,
+    "hours": {
+      "sun": "08:00-20:00",
+      "mon": "08:00-20:00",
+      "tue": "08:00-20:00",
+      "wed": "08:00-20:00",
+      "thu": "08:00-20:00",
+      "fri": "08:00-20:00",
+      "sat": "08:00-20:00"
+    },
+    "website": "https://fenster.cafe/",
+    "image": "/images/shops/fenster-cafe-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/fenster-cafe-vienna-1.jpg",
+      "/images/shops/gallery/fenster-cafe-vienna-2.jpg",
+      "/images/shops/gallery/fenster-cafe-vienna-3.jpg",
+      "/images/shops/gallery/fenster-cafe-vienna-4.jpg",
+      "/images/shops/gallery/fenster-cafe-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "the-pelican-coffee-company-vienna",
+    "name": "The Pelican Coffee Company",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Pelikangasse 4, 1090 Wien, Austria",
+    "lat": 48.215686,
+    "lng": 16.348182,
+    "hours": {
+      "mon": "07:30-18:00",
+      "tue": "07:30-18:00",
+      "wed": "07:30-18:00",
+      "thu": "07:30-18:00",
+      "fri": "07:30-18:00",
+      "sat": "09:00-17:00",
+      "sun": null
+    },
+    "website": "https://www.thepelicancoffee.at/",
+    "image": "/images/shops/the-pelican-coffee-company-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/the-pelican-coffee-company-vienna-1.jpg",
+      "/images/shops/gallery/the-pelican-coffee-company-vienna-2.jpg",
+      "/images/shops/gallery/the-pelican-coffee-company-vienna-3.jpg",
+      "/images/shops/gallery/the-pelican-coffee-company-vienna-4.jpg",
+      "/images/shops/gallery/the-pelican-coffee-company-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "baristas-united-coffee-shop-vienna",
+    "name": "Baristas United Coffee Shop",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Landstraßer Hauptstraße 34, 1030 Wien, Austria",
+    "lat": 48.2034567,
+    "lng": 16.3891504,
+    "hours": {
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "09:00-18:00",
+      "sun": null
+    },
+    "website": "http://www.baristasunited.at/",
+    "image": "/images/shops/baristas-united-coffee-shop-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/baristas-united-coffee-shop-vienna-1.jpg",
+      "/images/shops/gallery/baristas-united-coffee-shop-vienna-2.jpg",
+      "/images/shops/gallery/baristas-united-coffee-shop-vienna-3.jpg",
+      "/images/shops/gallery/baristas-united-coffee-shop-vienna-4.jpg",
+      "/images/shops/gallery/baristas-united-coffee-shop-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "josua-coffee-vienna",
+    "name": "Josua Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Hofmühlgasse 25, 1060 Wien, Austria",
+    "lat": 48.1945232,
+    "lng": 16.3506147,
+    "hours": {
+      "mon": "08:00-17:00",
+      "tue": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "09:00-17:00",
+      "sun": null
+    },
+    "website": null,
+    "image": "/images/shops/josua-coffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/josua-coffee-vienna-1.jpg",
+      "/images/shops/gallery/josua-coffee-vienna-2.jpg",
+      "/images/shops/gallery/josua-coffee-vienna-3.jpg",
+      "/images/shops/gallery/josua-coffee-vienna-4.jpg",
+      "/images/shops/gallery/josua-coffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "coffeewerk-specialty-coffee-vienna",
+    "name": "COFFEEWERK | Specialty Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Mariahilfer Str. 149, 1150 Wien, Austria",
+    "lat": 48.1941437,
+    "lng": 16.3356363,
+    "hours": {
+      "sun": "08:30-19:00",
+      "mon": "07:30-18:00",
+      "tue": "07:30-18:00",
+      "wed": "07:30-18:00",
+      "thu": "07:30-18:00",
+      "fri": "07:30-18:00",
+      "sat": "08:30-19:00"
+    },
+    "website": "https://coffeewerk.at/",
+    "image": "/images/shops/coffeewerk-specialty-coffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/coffeewerk-specialty-coffee-vienna-1.jpg",
+      "/images/shops/gallery/coffeewerk-specialty-coffee-vienna-2.jpg",
+      "/images/shops/gallery/coffeewerk-specialty-coffee-vienna-3.jpg",
+      "/images/shops/gallery/coffeewerk-specialty-coffee-vienna-4.jpg",
+      "/images/shops/gallery/coffeewerk-specialty-coffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "alt-wien-kaffee-vienna",
+    "name": "Alt Wien Kaffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Schleifmühlgasse 23, 1040 Wien, Austria",
+    "lat": 48.19814,
+    "lng": 16.36402,
+    "hours": {
+      "mon": "10:00-18:00",
+      "tue": "10:00-18:00",
+      "wed": "10:00-18:00",
+      "thu": "10:00-18:00",
+      "fri": "10:00-18:00",
+      "sat": "10:00-16:00",
+      "sun": null
+    },
+    "website": "https://www.altwien.at/",
+    "image": "/images/shops/alt-wien-kaffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/alt-wien-kaffee-vienna-1.jpg",
+      "/images/shops/gallery/alt-wien-kaffee-vienna-2.jpg",
+      "/images/shops/gallery/alt-wien-kaffee-vienna-3.jpg",
+      "/images/shops/gallery/alt-wien-kaffee-vienna-4.jpg",
+      "/images/shops/gallery/alt-wien-kaffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "cottage-roasters-1010-vienna",
+    "name": "Cottage Roasters 1010",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Fleischmarkt 16, 1010 Wien, Austria",
+    "lat": 48.210643,
+    "lng": 16.3768924,
+    "hours": {
+      "sun": "09:30-17:30",
+      "tue": "08:30-17:30",
+      "wed": "08:30-17:30",
+      "thu": "08:30-17:30",
+      "fri": "08:30-17:30",
+      "sat": "09:30-17:30",
+      "mon": null
+    },
+    "website": "http://www.cottageroasters.at/",
+    "image": "/images/shops/cottage-roasters-1010-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/cottage-roasters-1010-vienna-1.jpg",
+      "/images/shops/gallery/cottage-roasters-1010-vienna-2.jpg",
+      "/images/shops/gallery/cottage-roasters-1010-vienna-3.jpg",
+      "/images/shops/gallery/cottage-roasters-1010-vienna-4.jpg",
+      "/images/shops/gallery/cottage-roasters-1010-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "koun-coffee-vienna",
+    "name": "Koun Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Wiedner Hauptstraße 37, 1040 Wien, Austria",
+    "lat": 48.1940699,
+    "lng": 16.3674852,
+    "hours": {
+      "sun": "10:00-17:00",
+      "mon": "08:00-17:00",
+      "wed": "08:00-17:00",
+      "thu": "08:00-17:00",
+      "fri": "08:00-17:00",
+      "sat": "10:00-17:00",
+      "tue": null
+    },
+    "website": "https://www.kouncoffee.at/",
+    "image": "/images/shops/koun-coffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/koun-coffee-vienna-1.jpg",
+      "/images/shops/gallery/koun-coffee-vienna-2.jpg",
+      "/images/shops/gallery/koun-coffee-vienna-3.jpg",
+      "/images/shops/gallery/koun-coffee-vienna-4.jpg",
+      "/images/shops/gallery/koun-coffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "kaffeemodul-vienna",
+    "name": "Kaffeemodul",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Josefstädter Str. 35, 1080 Wien, Austria",
+    "lat": 48.20960669999999,
+    "lng": 16.3484824,
+    "hours": {
+      "mon": "07:30-17:30",
+      "tue": "07:30-17:30",
+      "wed": "07:30-17:30",
+      "thu": "07:30-17:30",
+      "fri": "07:30-17:30",
+      "sat": "10:00-14:00",
+      "sun": null
+    },
+    "website": "http://www.kaffeemodul.at/",
+    "image": "/images/shops/kaffeemodul-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/kaffeemodul-vienna-1.jpg",
+      "/images/shops/gallery/kaffeemodul-vienna-2.jpg",
+      "/images/shops/gallery/kaffeemodul-vienna-3.jpg",
+      "/images/shops/gallery/kaffeemodul-vienna-4.jpg",
+      "/images/shops/gallery/kaffeemodul-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "oak-brew-coffee-vienna",
+    "name": "Oak Brew Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Johannesgasse 23, 1010 Wien, Austria",
+    "lat": 48.20431079999999,
+    "lng": 16.3748505,
+    "hours": {
+      "mon": "08:00-16:00",
+      "tue": "08:00-16:00",
+      "wed": "08:00-16:00",
+      "thu": "08:00-16:00",
+      "fri": "08:00-16:00",
+      "sat": "10:00-16:00",
+      "sun": null
+    },
+    "website": "http://www.oakbrewcoffee.com/",
+    "image": "/images/shops/oak-brew-coffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/oak-brew-coffee-vienna-1.jpg",
+      "/images/shops/gallery/oak-brew-coffee-vienna-2.jpg",
+      "/images/shops/gallery/oak-brew-coffee-vienna-3.jpg",
+      "/images/shops/gallery/oak-brew-coffee-vienna-4.jpg",
+      "/images/shops/gallery/oak-brew-coffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "no-panic-coffee-vienna",
+    "name": "No Panic Coffee",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Paniglgasse 18, 1040 Wien, Austria",
+    "lat": 48.19815999999999,
+    "lng": 16.368518,
+    "hours": {
+      "sun": "10:00-17:30",
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "10:00-17:30"
+    },
+    "website": "http://www.nopanic.coffee/",
+    "image": "/images/shops/no-panic-coffee-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/no-panic-coffee-vienna-1.jpg",
+      "/images/shops/gallery/no-panic-coffee-vienna-2.jpg",
+      "/images/shops/gallery/no-panic-coffee-vienna-3.jpg",
+      "/images/shops/gallery/no-panic-coffee-vienna-4.jpg",
+      "/images/shops/gallery/no-panic-coffee-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "the-truth-wollzeile-vienna",
+    "name": "The Truth Wollzeile",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Wollzeile 5, 1010 Wien, Austria",
+    "lat": 48.2093966,
+    "lng": 16.3747986,
+    "hours": {
+      "sun": "09:30-18:00",
+      "mon": "09:30-17:30",
+      "tue": "09:30-17:30",
+      "wed": "09:30-17:30",
+      "thu": "09:30-17:30",
+      "fri": "09:30-17:30",
+      "sat": "09:30-18:00"
+    },
+    "website": null,
+    "image": "/images/shops/the-truth-wollzeile-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/the-truth-wollzeile-vienna-1.jpg",
+      "/images/shops/gallery/the-truth-wollzeile-vienna-2.jpg",
+      "/images/shops/gallery/the-truth-wollzeile-vienna-3.jpg",
+      "/images/shops/gallery/the-truth-wollzeile-vienna-4.jpg",
+      "/images/shops/gallery/the-truth-wollzeile-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "nd-coffeeart-vienna",
+    "name": "NÜD Coffee&Art",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Akademiestr. 2, 1010 Wien, Austria",
+    "lat": 48.20353009999999,
+    "lng": 16.372164,
+    "hours": {
+      "sun": "11:00-17:00",
+      "mon": "08:30-17:00",
+      "tue": "08:30-18:00",
+      "wed": "08:30-18:00",
+      "thu": "08:30-18:00",
+      "fri": "08:30-18:00",
+      "sat": "10:00-18:00"
+    },
+    "website": "https://www.instagram.com/nued.coffee",
+    "image": "/images/shops/nd-coffeeart-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/nd-coffeeart-vienna-1.jpg",
+      "/images/shops/gallery/nd-coffeeart-vienna-2.jpg",
+      "/images/shops/gallery/nd-coffeeart-vienna-3.jpg",
+      "/images/shops/gallery/nd-coffeeart-vienna-4.jpg",
+      "/images/shops/gallery/nd-coffeeart-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "rekompany-vienna",
+    "name": "re:kompany",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "health",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Schönburgstraße 36/8-9, 1040 Wien, Austria",
+    "lat": 48.1870039,
+    "lng": 16.3695178,
+    "hours": {
+      "sun": "09:00-18:00",
+      "tue": "09:30-17:30",
+      "wed": "09:30-17:30",
+      "thu": "09:30-17:30",
+      "fri": "09:00-18:00",
+      "sat": "09:00-18:00",
+      "mon": null
+    },
+    "website": "https://www.rekompany.com/",
+    "image": "/images/shops/rekompany-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/rekompany-vienna-1.jpg",
+      "/images/shops/gallery/rekompany-vienna-2.jpg",
+      "/images/shops/gallery/rekompany-vienna-3.jpg",
+      "/images/shops/gallery/rekompany-vienna-4.jpg",
+      "/images/shops/gallery/rekompany-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "ihana-vienna",
+    "name": "ihana",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "bar",
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest"
+    ],
+    "editorialSummary": null,
+    "address": "Kleine Pfarrgasse 3/1, 1020 Wien, Austria",
+    "lat": 48.2199818,
+    "lng": 16.3769427,
+    "hours": {
+      "tue": "08:30-17:00",
+      "wed": "08:30-17:00",
+      "thu": "08:30-17:00",
+      "fri": "08:30-17:00",
+      "sat": "09:00-15:00",
+      "sun": null,
+      "mon": null
+    },
+    "website": "https://www.facebook.com/ihanainwien",
+    "image": "/images/shops/ihana-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/ihana-vienna-1.jpg",
+      "/images/shops/gallery/ihana-vienna-2.jpg",
+      "/images/shops/gallery/ihana-vienna-3.jpg",
+      "/images/shops/gallery/ihana-vienna-4.jpg",
+      "/images/shops/gallery/ihana-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "the-miners-coffee-naschmarkt-vienna",
+    "name": "The Miners Coffee Naschmarkt",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Getreidemarkt 1, 1060 Wien, Austria",
+    "lat": 48.2001607,
+    "lng": 16.3652155,
+    "hours": {
+      "sun": "08:00-19:00",
+      "mon": "08:00-18:00",
+      "tue": "08:00-18:00",
+      "wed": "08:00-18:00",
+      "thu": "08:00-18:00",
+      "fri": "08:00-18:00",
+      "sat": "08:00-19:00"
+    },
+    "website": "https://www.theminers.eu/",
+    "image": "/images/shops/the-miners-coffee-naschmarkt-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/the-miners-coffee-naschmarkt-vienna-1.jpg",
+      "/images/shops/gallery/the-miners-coffee-naschmarkt-vienna-2.jpg",
+      "/images/shops/gallery/the-miners-coffee-naschmarkt-vienna-3.jpg",
+      "/images/shops/gallery/the-miners-coffee-naschmarkt-vienna-4.jpg",
+      "/images/shops/gallery/the-miners-coffee-naschmarkt-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "caf-fokus-vienna",
+    "name": "Café Fokus",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Kleine Pfarrgasse 28, 1020 Wien, Austria",
+    "lat": 48.2191686,
+    "lng": 16.3799647,
+    "hours": {
+      "sun": "09:00-16:00",
+      "tue": "07:30-16:00",
+      "wed": "07:30-16:00",
+      "thu": "07:30-16:00",
+      "fri": "07:30-16:00",
+      "sat": "09:00-16:00",
+      "mon": null
+    },
+    "website": null,
+    "image": "/images/shops/caf-fokus-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/caf-fokus-vienna-1.jpg",
+      "/images/shops/gallery/caf-fokus-vienna-2.jpg",
+      "/images/shops/gallery/caf-fokus-vienna-3.jpg",
+      "/images/shops/gallery/caf-fokus-vienna-4.jpg",
+      "/images/shops/gallery/caf-fokus-vienna-5.jpg"
+    ]
+  },
+  {
+    "slug": "manana-caf-vienna",
+    "name": "MANANA cafẽ",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "cafe",
+      "establishment",
+      "food",
+      "point_of_interest",
+      "store"
+    ],
+    "editorialSummary": null,
+    "address": "Schulgasse 31, 1180 Wien, Austria",
+    "lat": 48.2249794,
+    "lng": 16.3430902,
+    "hours": {
+      "sun": "10:00-16:00",
+      "mon": "09:00-17:00",
+      "tue": "09:00-17:00",
+      "wed": "09:00-17:00",
+      "thu": "09:00-17:00",
+      "fri": "09:00-17:00",
+      "sat": "09:00-17:00"
+    },
+    "website": "https://manana.coffee/cafe/",
+    "image": "/images/shops/manana-caf-vienna.jpg",
+    "images": [
+      "/images/shops/gallery/manana-caf-vienna-1.jpg",
+      "/images/shops/gallery/manana-caf-vienna-2.jpg",
+      "/images/shops/gallery/manana-caf-vienna-3.jpg",
+      "/images/shops/gallery/manana-caf-vienna-4.jpg",
+      "/images/shops/gallery/manana-caf-vienna-5.jpg"
+    ]
+  }
+]
